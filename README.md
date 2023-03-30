@@ -1,1 +1,3 @@
-# fear_in_the_eyes
+# Fear in the eyes
+
+Repository containing synchronization between *gaze* data and *change in pupil diameter*.
