@@ -30,9 +30,11 @@ for file in sorted(os.listdir(dir_pupil)):
     resampled = []
     for i, rows in df_.iterrows():
         values = rows.to_numpy()
-        resampled_values = signal.resample(values, 1000)
+        resampled_values = signal.resample(values, 7000)
         resampled.append(resampled_values)
     df_resampled = pd.DataFrame(resampled)
     if check:
-        df_resampled.to_csv(data_path+'output/resampled/resampled_'+file)
+        df_resampled.to_csv(data_path+'output/resampled/resampled_'+file, index=False)
+    else:
+        df_resampled.to_csv('tmp_csv_'+file, index=False)
 
