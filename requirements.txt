@@ -4,3 +4,9 @@ python-dateutil==2.8.2
 pytz==2023.3
 scipy==1.10.1
 six==1.16.0
+pymc3==3.11.2
+scikit-learn
+numpy-indexed=0.3.5
+imbalanced-learn=0.10.1
+openpyxl
+seaborn
