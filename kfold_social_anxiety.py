@@ -61,14 +61,14 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     if type(reg_fix) ==  GPy.models.SparseGPRegression:
         ppred_fix, ppred_fix_var  = reg_fix.predict(X_fix_test)
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/parallel/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix)
-        with open('./results/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/parallel/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix_var)
     else:
         ppred_fix = reg_fix.predict(X_fix_test)
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_fix).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/parallel/datapoint_based/'+type(reg_fix).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix)
 
     key_fix, ppred_fix_comb = npi.group_by(ss).mean(ppred_fix)
@@ -81,14 +81,14 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     if type(reg_sac) ==  GPy.models.SparseGPRegression:
         ppred_sac, ppred_sac_var = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/parallel/datapoint_based/'+type(reg_sac).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
-        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/parallel/datapoint_based/'+type(reg_sac).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac_var)
     else:
         ppred_sac = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/parallel/datapoint_based/'+type(reg_sac).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
     
     key_sac, ppred_sac_comb = npi.group_by(ss).mean(ppred_sac)
@@ -105,9 +105,9 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
 
     print('t ', type(reg_sac).__name__)
     #Saving trial based results
-    with open('./results/trial_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+    with open('./results/parallel/trial_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
         np.save(f, y_pred)
-    with open('./results/trial_based/'+type(reg_sac).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+    with open('./results/parallel/trial_based/'+type(reg_sac).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
         np.save(f, y_test)
 
     rmse = mean_squared_error(y_test, y_pred, squared=False)
