@@ -28,7 +28,7 @@ def sorted_nicely(l):
     return sorted(l, key = alphanum_key)
 
 
-def train_sklearn(X, y, model):
+def train_sklearn(X, y, model, fold, config, model_type='fix'):
     from sklearn.metrics import make_scorer
 
     print('Regression using ', model ) 
@@ -38,6 +38,12 @@ def train_sklearn(X, y, model):
                             )
 
     pipe_reg = pipe_reg.fit(X, y)
+
+    # if the model computes features importance
+    if type(pipe_reg[1]) == RandomForestRegressor: 
+        with open('./results/features_importance/RF_'+model_type+'_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, pipe_reg[1].feature_importances_)
+
     y_pred = pipe_reg.predict(X)
     mse = mean_squared_error(y, y_pred, squared=False)
     mae = mean_absolute_error(y, y_pred)
@@ -48,6 +54,25 @@ def train_sklearn(X, y, model):
 
     return pipe_reg
 
+def normalize_data_and_train_gpr(train_X, train_y, test_X, fold, config, model_type):
+    # Normalization
+    scaler = RobustScaler()
+    train_X = scaler.fit_transform(train_X.copy())
+    test_X = scaler.transform(test_X.copy())
+
+    # Optimization
+    kernel_fix = GPy.kern.RBF(input_dim = len(train_X[0]), ARD=True)
+    #kernel_fix = GPy.kern.Matern32(input_dim = len(train_Xf[0]), variance=1.0, lengthscale=0.5, ARD=True)
+    #kernel_fix = GPy.kern.Linear(input_dim = len(train_Xf[0]), variance=1.0, ARD=True)
+    reg = GPy.models.SparseGPRegression(train_X, train_y.reshape(-1, 1), kernel_fix, num_inducing=100)
+    reg.optimize()
+
+    # Saving Feature importance
+    with open('./results/features_importance/GPR_'+model_type+'_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        np.save(f, reg.kern.lengthscale.values)
+
+    # Return the normalized test_X
+    return reg, test_X
 
 def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_sac_test, y_s_test, stim_s_test, sub_s_test, fold, config):
 
@@ -68,7 +93,7 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     else:
         ppred_fix = reg_fix.predict(X_fix_test)
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_fix).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/datapoint_based/'+type(reg_fix[1]).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix)
 
     key_fix, ppred_fix_comb = npi.group_by(ss).mean(ppred_fix)
@@ -88,7 +113,7 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     else:
         ppred_sac = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/datapoint_based/'+type(reg_sac[1]).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
     
     key_sac, ppred_sac_comb = npi.group_by(ss).mean(ppred_sac)
@@ -103,7 +128,6 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     #Fusion --------
     y_pred = (np.array(ppred_fix_comb) + np.array(ppred_sac_comb)) / 2.
 
-    print('t ', type(reg_sac).__name__)
     #Saving trial based results
     with open('./results/trial_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
         np.save(f, y_pred)
@@ -291,25 +315,19 @@ def get_results_kfold(X_fix, ids_f, yf, stim_f, X_sac, ids_s, ys, stim_s, k, mod
 
         if model == 'GPR':
             print('\nTraining Fixations')
-
-            kernel_fix = GPy.kern.RBF(input_dim = len(train_Xf[0]), ARD=True)
-            #kernel_fix = GPy.kern.Matern32(input_dim = len(train_Xf[0]), variance=1.0, lengthscale=0.5, ARD=True)
-            #kernel_fix = GPy.kern.Linear(input_dim = len(train_Xf[0]), variance=1.0, ARD=True)
-            reg_fix = GPy.models.SparseGPRegression(train_Xf, train_yf.reshape(-1, 1), kernel_fix, num_inducing=1)
-            reg_fix.optimize()
+            reg_fix, test_Xf = normalize_data_and_train_gpr(train_Xf, train_yf, test_Xf, fold=fold, config=config, model_type='fix')
 
             print('Training Saccades')
-            kernel_sac = GPy.kern.RBF(input_dim = len(train_Xs[0]) , ARD=True)
-            #kernel_sac = GPy.kern.Matern32(input_dim = len(train_Xs[0]), variance=1.0, lengthscale=0.5, ARD=True)
-            #kernel_sac = GPy.kern.Linear(input_dim = len(train_Xs[0]), variance=1.0, ARD=True)
-            reg_sac = GPy.models.SparseGPRegression(train_Xs, train_ys.reshape(-1, 1), kernel_sac, num_inducing=1)
-            reg_sac.optimize()
+            reg_sac, test_Xs = normalize_data_and_train_gpr(train_Xs, train_ys, test_Xs, fold=fold, config=config, model_type='sac')
+            
         else:
             print('\nTraining Fixations')
-            reg_fix = train_sklearn(train_Xf, train_yf, model=model)
+            reg_fix = train_sklearn(train_Xf, train_yf, model=model, 
+                                    fold=fold, config=config, model_type='fix')
             
             print('Training Saccades')
-            reg_sac = train_sklearn(train_Xs, train_ys, model=model)
+            reg_sac = train_sklearn(train_Xs, train_ys, model=model, 
+                                    fold=fold, config=config, model_type='sac')
 
         current_fold_metrics = evaluate(reg_fix, reg_sac,
                                         test_Xf, test_yf, test_stf, test_ids_f,
