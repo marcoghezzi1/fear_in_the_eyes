@@ -90,11 +90,15 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
             np.save(f, ppred_fix)
         with open('./results/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix_var)
+        with open('./results/datapoint_based/'+type(reg_fix).__name__+'_y_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_f_test)
     else:
         ppred_fix = reg_fix.predict(X_fix_test)
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_fix[1]).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/datapoint_based/'+type(reg_fix[1]).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix)
+        with open('./results/datapoint_based/'+type(reg_fix[1]).__name__+'_y_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_f_test)
 
     key_fix, ppred_fix_comb = npi.group_by(ss).mean(ppred_fix)
     
@@ -106,15 +110,19 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     if type(reg_sac) ==  GPy.models.SparseGPRegression:
         ppred_sac, ppred_sac_var = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_ppred_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
-        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_ppred_sac_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac_var)
+        with open('./results/datapoint_based/'+type(reg_sac).__name__+'_y_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_s_test)
     else:
         ppred_sac = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results/datapoint_based/'+type(reg_sac[1]).__name__+'_'+config+'_'+'_ppred_fix_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/datapoint_based/'+type(reg_sac[1]).__name__+'_ppred_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
+        with open('./results/datapoint_based/'+type(reg_sac[1]).__name__+'_y_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_s_test)
     
     key_sac, ppred_sac_comb = npi.group_by(ss).mean(ppred_sac)
 
@@ -127,12 +135,19 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
 
     #Fusion --------
     y_pred = (np.array(ppred_fix_comb) + np.array(ppred_sac_comb)) / 2.
-
-    #Saving trial based results
-    with open('./results/trial_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
-        np.save(f, y_pred)
-    with open('./results/trial_based/'+type(reg_sac).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
-        np.save(f, y_test)
+    
+    if type(reg_sac) ==  GPy.models.SparseGPRegression:
+        #Saving trial based results
+        with open('./results/trial_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_pred)
+        with open('./results/trial_based/'+type(reg_sac).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_test)
+    else:
+        #Saving trial based results
+        with open('./results/trial_based/'+type(reg_sac[1]).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_pred)
+        with open('./results/trial_based/'+type(reg_sac[1]).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+            np.save(f, y_test)
 
     rmse = mean_squared_error(y_test, y_pred, squared=False)
     mae = mean_absolute_error(y_test, y_pred)
@@ -360,10 +375,10 @@ def get_features(data, config='all_features', typ='sac'):
 # MAIN ---------------------------------------------------------------------
 
 dataset_name = 'Reutter_OU_posterior_VI'
-models_regression = [ 'GPR',
+models_regression = [ #'GPR',
                       #SVR( C=1000, kernel='rbf', gamma=0.002), 
-                      #RandomForestRegressor(), 
-                      #MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+                      RandomForestRegressor(), 
+                      MLPRegressor(hidden_layer_sizes=(100, 50, 25))
                     ]
 
 directory_ou = join(join('features', dataset_name), 'train')
@@ -425,3 +440,4 @@ for models, configuration in  [ (models_regression, 'all_features'),
         print('MAE CV score: ' + str(cv_summary['mae_mean']) + ' +- ' + str(cv_summary['mae_std']))
         print('R2 CV score: ' + str(cv_summary['r2_mean']) + ' +- ' + str(cv_summary['r2_std']))
         print(' ')
+

@@ -1,6 +1,6 @@
 # Using ML on Gaze Data in a Fear Generalization setup
 
-The system performs 1) social anxiety recognition; 2) identification of the subjects; 3) eletroctactile stimulus recognition and 4) shock expectancy rating prediction; based on eye movements modeled as an Ornstein-Uhlenbeck process.
+The system performs social anxiety recognition based on eye movements modeled as an Ornstein-Uhlenbeck process.
 
 ## Installation
 
@@ -21,4 +21,4 @@ Extract Ornstein-Uhlenbeck features from [Diagnostic Facial Features & Fear Gene
 
 
 ### Train and test
-Modules `kfold_identity.py`,`kfold_rating.py`,`kfold_shock.py` and `kfold_social_anxiety.py` exploit different classifiers for classification and regression on the features extracted as an Ornstein-Uhlenbeck process.
+Module `kfold_social_anxiety.py` exploit different regressors for sias recognition on the features extracted as an Ornstein-Uhlenbeck process.
