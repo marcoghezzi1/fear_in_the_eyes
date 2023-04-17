@@ -1,0 +1,410 @@
+
+Loaded 43 subjects...
+Training models with  all features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.5251954540897112
+	MAE train:  1.7980941596620355
+	R2 train:  0.8966497043332113
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.4569416855326938
+	MAE train:  1.699908346314256
+	R2 train:  0.9013188534067791
+Regression Evaluation
+	RMSE test 6.469145526174951
+	MAE test 4.619280713380942
+	R2 test 0.3360669101142495
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.517284220204798
+	MAE train:  1.7927445458323772
+	R2 train:  0.8966710860182926
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.4554800935068126
+	MAE train:  1.7047181670314662
+	R2 train:  0.9009197724412921
+Regression Evaluation
+	RMSE test 6.321742013124213
+	MAE test 4.518326968360722
+	R2 test 0.36632440224944174
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.5212322269304046
+	MAE train:  1.7966797549377058
+	R2 train:  0.8963504551194058
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.467629227874034
+	MAE train:  1.7193846775007569
+	R2 train:  0.8997993231435902
+Regression Evaluation
+	RMSE test 6.31775031875427
+	MAE test 4.541464640709887
+	R2 test 0.3671199592999549
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.5143655331908894
+	MAE train:  1.7865331241778397
+	R2 train:  0.8968416130789234
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.449075113118046
+	MAE train:  1.6975154619540702
+	R2 train:  0.9010838903537177
+Regression Evaluation
+	RMSE test 6.372878083517429
+	MAE test 4.557725103009213
+	R2 test 0.3557082785473299
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.4997829796144373
+	MAE train:  1.7728546697880732
+	R2 train:  0.8979486906194932
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.440769974123976
+	MAE train:  1.686248221122046
+	R2 train:  0.9018113705847757
+Regression Evaluation
+	RMSE test 6.4496776305668
+	MAE test 4.620687080811001
+	R2 test 0.3415737232375332
+
+RMSE CV score: 6.386238714427533 +- 0.06313006699548133
+MAE CV score: 4.571496901254354 +- 0.04152494992265028
+R2 CV score: 0.3533586546897019 +- 0.01265617546043359
+ 
+Training models with  classic features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  7.78757737525522
+	MAE train:  6.09861532465727
+	R2 train:  0.017061207532384715
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  3.0220739663909595
+	MAE train:  2.3204465402153356
+	R2 train:  0.8507017666694288
+Regression Evaluation
+	RMSE test 7.810613765655966
+	MAE test 6.022825252761205
+	R2 test 0.03216617272012323
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  7.764548686636867
+	MAE train:  6.100297268744228
+	R2 train:  0.016917889854197954
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  3.015070585679213
+	MAE train:  2.324591157644206
+	R2 train:  0.850614265177869
+Regression Evaluation
+	RMSE test 7.778704078818915
+	MAE test 6.0301394536094906
+	R2 test 0.0405818138696975
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  7.762861378547859
+	MAE train:  6.094577189356509
+	R2 train:  0.0173805369936898
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  3.0116278205802334
+	MAE train:  2.3213830283541697
+	R2 train:  0.8507503075969363
+Regression Evaluation
+	RMSE test 7.792667080236454
+	MAE test 6.042039283359596
+	R2 test 0.03712762248852408
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  7.759027899957302
+	MAE train:  6.091389916490988
+	R2 train:  0.017658843020237125
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  3.0052323753529318
+	MAE train:  2.3150578008822036
+	R2 train:  0.8510573986540519
+Regression Evaluation
+	RMSE test 7.792369812865938
+	MAE test 6.041976799791915
+	R2 test 0.0367246630495256
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  7.758754689511201
+	MAE train:  6.087057036458899
+	R2 train:  0.016899290207634365
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  3.012414029482802
+	MAE train:  2.317135762191737
+	R2 train:  0.8504326438520998
+Regression Evaluation
+	RMSE test 7.7795969585916165
+	MAE test 6.011329215233151
+	R2 test 0.04204450275978788
+
+RMSE CV score: 7.790790339233777 +- 0.011578899687603459
+MAE CV score: 6.029662000951071 +- 0.011729548238041228
+R2 CV score: 0.03772895497753166 +- 0.0034373683538974557
+ 
+Training models with  pupil features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.8918508140096617
+	MAE train:  2.089253019094489
+	R2 train:  0.8644581231520015
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.870788193163602
+	MAE train:  2.0742040098487515
+	R2 train:  0.8652754343185955
+Regression Evaluation
+	RMSE test 7.234109773908364
+	MAE test 5.2609206330167195
+	R2 test 0.16976571923676143
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.8768573858237962
+	MAE train:  2.0818411111180044
+	R2 train:  0.8650434323235722
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.865659336663011
+	MAE train:  2.0751085363159905
+	R2 train:  0.8650529850550169
+Regression Evaluation
+	RMSE test 7.203437644557169
+	MAE test 5.221144964379775
+	R2 test 0.17724022955423868
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.877624423111558
+	MAE train:  2.0870687882130765
+	R2 train:  0.8649763258135997
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.863761466243396
+	MAE train:  2.078403250227112
+	R2 train:  0.8650463838656113
+Regression Evaluation
+	RMSE test 7.197937048484541
+	MAE test 5.198889459637073
+	R2 test 0.17849053605355936
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.877705614580772
+	MAE train:  2.0843242692424084
+	R2 train:  0.8648735269860677
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.86082870558684
+	MAE train:  2.0699664197431864
+	R2 train:  0.8650271162912814
+Regression Evaluation
+	RMSE test 7.192850387166683
+	MAE test 5.175028072934751
+	R2 test 0.17924528841753729
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.87199825070803
+	MAE train:  2.0747309635288316
+	R2 train:  0.8652954361749754
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.8482222452803
+	MAE train:  2.060509711170351
+	R2 train:  0.8662926621780378
+Regression Evaluation
+	RMSE test 7.219703214593653
+	MAE test 5.2166363185841425
+	R2 test 0.1749698335276667
+
+RMSE CV score: 7.209607613742082 +- 0.015214153049321893
+MAE CV score: 5.214523889710493 +- 0.02830305185470278
+R2 CV score: 0.17594232135795268 +- 0.0034112666726936434
+ 
+Training models with  ou features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.84407933637315
+	MAE train:  2.214781959471651
+	R2 train:  0.8688992610122281
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.7793826886999047
+	MAE train:  2.0872533038540775
+	R2 train:  0.8737180772510523
+Regression Evaluation
+	RMSE test 7.313575337080295
+	MAE test 5.643730564830768
+	R2 test 0.1514255503779246
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.8370849261281563
+	MAE train:  2.2117401229475147
+	R2 train:  0.868749178420482
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.771717637498691
+	MAE train:  2.086061667904978
+	R2 train:  0.8737555976012069
+Regression Evaluation
+	RMSE test 7.214152512663892
+	MAE test 5.587009946589978
+	R2 test 0.1747907548916362
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.8369433706104195
+	MAE train:  2.2120446372367537
+	R2 train:  0.8687670070865618
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.7791417917438364
+	MAE train:  2.0953977995356814
+	R2 train:  0.8729038912746241
+Regression Evaluation
+	RMSE test 7.220720307633039
+	MAE test 5.5984973324547065
+	R2 test 0.1732817423872256
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.834640346779651
+	MAE train:  2.209475114407643
+	R2 train:  0.8688876378904313
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.7606421063161384
+	MAE train:  2.074492136205531
+	R2 train:  0.8743151206864889
+Regression Evaluation
+	RMSE test 7.215442604183971
+	MAE test 5.591841747922562
+	R2 test 0.1740813302798604
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.835960545346315
+	MAE train:  2.209921328240513
+	R2 train:  0.868654760444616
+Training Saccades
+Regression using  RandomForestRegressor(n_jobs=32)
+	RMSE train:  2.7750766681518524
+	MAE train:  2.0870124872221445
+	R2 train:  0.8730719915460163
+Regression Evaluation
+	RMSE test 7.202917970774187
+	MAE test 5.595280890875337
+	R2 test 0.17880163490452594
+
+RMSE CV score: 7.233361746467077 +- 0.040523918608067436
+MAE CV score: 5.60327209653467 +- 0.020584731171396795
+R2 CV score: 0.17047620256823454 +- 0.009713120340104669
+ 

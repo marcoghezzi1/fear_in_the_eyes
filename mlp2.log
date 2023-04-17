@@ -1,0 +1,410 @@
+
+Loaded 43 subjects...
+Training models with  all features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.556573621785935
+	MAE train:  4.96031003352121
+	R2 train:  0.07451035998728117
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.921809774054897
+	MAE train:  4.90470359132535
+	R2 train:  0.21677992777345023
+Regression Evaluation
+	RMSE test 6.645392645798546
+	MAE test 4.734409567427443
+	R2 test 0.2993973667416415
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.492989853691842
+	MAE train:  4.640415460646504
+	R2 train:  0.3125409929073337
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.441461215047975
+	MAE train:  4.7140698006155395
+	R2 train:  0.3181592511727075
+Regression Evaluation
+	RMSE test 6.241332272212418
+	MAE test 4.531311278390365
+	R2 test 0.382342024105662
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.973235322667163
+	MAE train:  5.103803128984593
+	R2 train:  0.2071147426577813
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.922171109159194
+	MAE train:  5.057617979547329
+	R2 train:  0.21151124358257367
+Regression Evaluation
+	RMSE test 6.652366945742425
+	MAE test 4.861050674910973
+	R2 test 0.2983042005811205
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.456397486464875
+	MAE train:  4.582313371411599
+	R2 train:  0.31981314842304187
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.379220725233703
+	MAE train:  4.474515410196114
+	R2 train:  0.3288832541027791
+Regression Evaluation
+	RMSE test 6.237107456437417
+	MAE test 4.401830334944244
+	R2 test 0.38286840220870844
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.471921564990957
+	MAE train:  4.592142835567474
+	R2 train:  0.31596163779178243
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.353774775893661
+	MAE train:  4.458464507732258
+	R2 train:  0.33461788039595075
+Regression Evaluation
+	RMSE test 7.016061230845402
+	MAE test 4.540525289100382
+	R2 test 0.22085573312485896
+
+RMSE CV score: 6.5584521102072415 +- 0.2931252764638511
+MAE CV score: 4.613825428954681 +- 0.1629627393730676
+R2 CV score: 0.3167535453523983 +- 0.06084575332886275
+ 
+Training models with  classic features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.872858284785536
+	MAE train:  6.294067803868295
+	R2 train:  -0.004584779246276316
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  8.250812746896232
+	MAE train:  6.284428105552477
+	R2 train:  -0.11285338490024355
+Regression Evaluation
+	RMSE test 7.882806808490023
+	MAE test 6.200737619622512
+	R2 test 0.014192226698066968
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.8767259306698145
+	MAE train:  6.3699331213240535
+	R2 train:  -0.011693191035080819
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.778080441069128
+	MAE train:  6.089354511421425
+	R2 train:  0.0058337384377293855
+Regression Evaluation
+	RMSE test 7.906011320334569
+	MAE test 6.209771594582412
+	R2 test 0.0089209181853388
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.845017648122458
+	MAE train:  6.273724680397132
+	R2 train:  -0.0035281278696253082
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.714207456851968
+	MAE train:  6.049780832481062
+	R2 train:  0.0207502436299406
+Regression Evaluation
+	RMSE test 7.86087735370725
+	MAE test 6.136835803917159
+	R2 test 0.020197544298603987
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.831152261880983
+	MAE train:  6.187339319301431
+	R2 train:  -0.0006888232041712961
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.834087228436993
+	MAE train:  6.077605133745742
+	R2 train:  -0.01213774909155374
+Regression Evaluation
+	RMSE test 7.885343682027091
+	MAE test 6.0918877720394216
+	R2 test 0.013601089102050934
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.833781336588497
+	MAE train:  6.215838906908266
+	R2 train:  -0.0022056754961086167
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.752097405529521
+	MAE train:  6.052620200492215
+	R2 train:  0.009519486399105381
+Regression Evaluation
+	RMSE test 7.877415224191181
+	MAE test 6.1000970623473805
+	R2 test 0.017802975042226832
+
+RMSE CV score: 7.882490877750023 +- 0.014521406298603337
+MAE CV score: 6.147865970501777 +- 0.049325063482569154
+R2 CV score: 0.014942950665257504 +- 0.0038579670244154617
+ 
+Training models with  pupil features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.211624118158309
+	MAE train:  5.276405596846756
+	R2 train:  0.15707702607693808
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.1684463542513015
+	MAE train:  5.301180663321653
+	R2 train:  0.15997044084846324
+Regression Evaluation
+	RMSE test 7.268342448183984
+	MAE test 5.302313633843046
+	R2 test 0.16188959163695826
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.2252642187550205
+	MAE train:  5.145856047001376
+	R2 train:  0.1487349077926493
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.150985929070961
+	MAE train:  5.315778978054524
+	R2 train:  0.15967747123176368
+Regression Evaluation
+	RMSE test 7.230350898036917
+	MAE test 5.177762035188127
+	R2 test 0.17108080717848806
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.2017357051715125
+	MAE train:  5.2912055984687685
+	R2 train:  0.1543005298163439
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.174099085990051
+	MAE train:  5.309354732995695
+	R2 train:  0.15307376640647408
+Regression Evaluation
+	RMSE test 7.20248890227561
+	MAE test 5.21058486091146
+	R2 test 0.17745119011138022
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.211660885755531
+	MAE train:  5.359639272061142
+	R2 train:  0.15137014489735223
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.130928731799189
+	MAE train:  5.296168353140107
+	R2 train:  0.16139970841176876
+Regression Evaluation
+	RMSE test 7.224747892458409
+	MAE test 5.272484759732639
+	R2 test 0.17194968918088105
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.167826893612695
+	MAE train:  5.250008685900967
+	R2 train:  0.16094779196520825
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.1118909477610766
+	MAE train:  5.198986390430028
+	R2 train:  0.16636167745577268
+Regression Evaluation
+	RMSE test 7.235559723099183
+	MAE test 5.226217482411821
+	R2 test 0.17134185507630373
+
+RMSE CV score: 7.232297972810821 +- 0.021256616473683775
+MAE CV score: 5.237872554417419 +- 0.04437204281226841
+R2 CV score: 0.17074262663680226 +- 0.005006225991457128
+ 
+Training models with  ou features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.335377683297663
+	MAE train:  5.769589452716072
+	R2 train:  0.12789919958026807
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.318605577159848
+	MAE train:  5.487899832890734
+	R2 train:  0.12440923178076835
+Regression Evaluation
+	RMSE test 7.278469624430068
+	MAE test 5.586278642742414
+	R2 test 0.15955244119477252
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  13.662809419174078
+	MAE train:  6.002745281073605
+	R2 train:  -2.043949050402948
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.314439346417863
+	MAE train:  5.617267071867715
+	R2 train:  0.1208231460043857
+Regression Evaluation
+	RMSE test 7.408380673197425
+	MAE test 5.659119013761449
+	R2 test 0.12975802664544434
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.303837904578681
+	MAE train:  5.676229317740052
+	R2 train:  0.1301508317850053
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.31357882137101
+	MAE train:  5.581083955685875
+	R2 train:  0.11982153908090232
+Regression Evaluation
+	RMSE test 7.198150558133964
+	MAE test 5.542047019120781
+	R2 test 0.17844179908965496
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.852873065824745
+	MAE train:  6.013305992811772
+	R2 train:  -0.00624762441597615
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.267985612833376
+	MAE train:  5.532153387085368
+	R2 train:  0.12885402393701106
+Regression Evaluation
+	RMSE test 7.432225960306594
+	MAE test 5.718805266659362
+	R2 test 0.12370740767201727
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.299730085564409
+	MAE train:  5.67605671249568
+	R2 train:  0.12978298260401355
+Training Saccades
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.269705079940598
+	MAE train:  5.527858825188499
+	R2 train:  0.12895402361223385
+Regression Evaluation
+	RMSE test 73.53006620941531
+	MAE test 7.498885228582113
+	R2 test -84.57778712816086
+
+RMSE CV score: 20.569458605096674 +- 26.48044213634828
+MAE CV score: 6.001027034173224 +- 0.7513731793789806
+R2 CV score: -16.797265490711794 +- 33.89026666992915
+ 
