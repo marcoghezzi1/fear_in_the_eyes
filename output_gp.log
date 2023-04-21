@@ -1,0 +1,266 @@
+
+Loaded 43 subjects...
+Training models with  all features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.238612851442725
+	MAE test 5.217109800885493
+	R2 test 0.16873179161975282
+
+Fold 2 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.166059670514832
+	MAE test 5.142505911782722
+	R2 test 0.185756526181713
+
+Fold 3 of 5
+
+Training Fixations
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:166: RuntimeWarning:overflow encountered in divide
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:137: RuntimeWarning:overflow encountered in square
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:138: RuntimeWarning:invalid value encountered in add
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:165: RuntimeWarning:overflow encountered in divide
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:144: RuntimeWarning:overflow encountered in square
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:145: RuntimeWarning:overflow encountered in square
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:146: RuntimeWarning:invalid value encountered in add
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/rbf.py:76: RuntimeWarning:invalid value encountered in multiply
+Training Saccades
+Regression Evaluation
+	RMSE test 7.154391166079344
+	MAE test 5.178511783153077
+	R2 test 0.18840035992153237
+
+Fold 4 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.1682177680307815
+	MAE test 5.126527583342673
+	R2 test 0.18485717216395847
+
+Fold 5 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.1951376561239
+	MAE test 5.151521499349477
+	R2 test 0.18057473048124595
+
+RMSE CV score: 7.184483822438317 +- 0.030176341130057134
+MAE CV score: 5.163235315702688 +- 0.031781157647019026
+R2 CV score: 0.18166411607364052 +- 0.006939051601139305
+ 
+Training models with  classic features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.900614220317573
+	MAE test 6.076908571044557
+	R2 test 0.009733278606587792
+
+Fold 2 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.901539762185997
+	MAE test 6.097963918414839
+	R2 test 0.010041689282662025
+
+Fold 3 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.896773108588659
+	MAE test 6.098400109785877
+	R2 test 0.011228812514164077
+
+Fold 4 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.879730831123884
+	MAE test 6.078391366442596
+	R2 test 0.015004842641530125
+
+Fold 5 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.883886219538406
+	MAE test 6.076815004891699
+	R2 test 0.01618863766942491
+
+RMSE CV score: 7.892508828350904 +- 0.008978483465267237
+MAE CV score: 6.085695794115914 +- 0.010211218151047407
+R2 CV score: 0.012439452142873786 +- 0.0026523917801110964
+ 
+Training models with  pupil features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.269660931173318
+	MAE test 5.279268275616307
+	R2 test 0.16158549629430397
+
+Fold 2 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.239524869203308
+	MAE test 5.229159898918287
+	R2 test 0.16897598399141622
+
+Fold 3 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.206857633953466
+	MAE test 5.188319410232439
+	R2 test 0.17645303935438528
+
+Fold 4 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.238111034174095
+	MAE test 5.2058998129913885
+	R2 test 0.16888367573790986
+
+Fold 5 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.258745872442295
+	MAE test 5.228450145026573
+	R2 test 0.1660225220522754
+
+RMSE CV score: 7.242580068189296 +- 0.021448100991518344
+MAE CV score: 5.226219508556999 +- 0.03058463928817616
+R2 CV score: 0.16838414348605815 +- 0.004847798420371421
+ 
+Training models with  ou features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.792903782973663
+	MAE test 5.958303932331341
+	R2 test 0.03655017854522713
+
+Fold 2 of 5
+
+Training Fixations
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:166: RuntimeWarning:overflow encountered in divide
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:137: RuntimeWarning:overflow encountered in square
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:138: RuntimeWarning:invalid value encountered in add
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:165: RuntimeWarning:overflow encountered in divide
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:144: RuntimeWarning:overflow encountered in square
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:145: RuntimeWarning:overflow encountered in square
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/stationary.py:146: RuntimeWarning:invalid value encountered in add
+ /home/studenti/conversano/miniconda3/envs/mlgaze/lib/python3.9/site-packages/GPy/kern/src/rbf.py:76: RuntimeWarning:invalid value encountered in multiply
+Training Saccades
+Regression Evaluation
+	RMSE test 7.80130172356581
+	MAE test 5.99620764343511
+	R2 test 0.034999371631842746
+
+Fold 3 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.787836896548723
+	MAE test 5.987442734158394
+	R2 test 0.03832090048145376
+
+Fold 4 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.784512949345003
+	MAE test 5.965348611317014
+	R2 test 0.038666179573008774
+
+Fold 5 of 5
+
+Training Fixations
+Training Saccades
+Regression Evaluation
+	RMSE test 7.772547125832811
+	MAE test 5.953023132366599
+	R2 test 0.04377990528025433
+
+RMSE CV score: 7.787820495653202 +- 0.009505780065357393
+MAE CV score: 5.972065210721692 +- 0.016830992382800083
+R2 CV score: 0.03846330710235735 +- 0.0029660263953727468
+ 

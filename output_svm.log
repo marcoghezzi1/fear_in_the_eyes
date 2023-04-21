@@ -1,0 +1,410 @@
+
+Loaded 43 subjects...
+Training models with  all features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.718638098937858
+	MAE train:  5.169276153793621
+	R2 train:  0.03438704597777553
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.568183824359366
+	MAE train:  5.006440558587258
+	R2 train:  0.06367238178538748
+Regression Evaluation
+	RMSE test 7.587723922027679
+	MAE test 5.062417461125434
+	R2 test 0.08661575989285475
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.66742743748094
+	MAE train:  5.1635719008778445
+	R2 train:  0.04135743733553343
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.539036863830919
+	MAE train:  5.015656133590756
+	R2 train:  0.06600211278512313
+Regression Evaluation
+	RMSE test 7.56734224713489
+	MAE test 5.008014863229583
+	R2 test 0.09201181275598325
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.646483450534613
+	MAE train:  5.144528175852923
+	R2 train:  0.04662182475413412
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.515505268508658
+	MAE train:  5.006874503291987
+	R2 train:  0.07054747591749944
+Regression Evaluation
+	RMSE test 7.60286373295713
+	MAE test 5.060389186335727
+	R2 test 0.08346111282976099
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.648662521626601
+	MAE train:  5.132310057913807
+	R2 train:  0.045405975848128444
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.503582868392738
+	MAE train:  4.9820500866111725
+	R2 train:  0.0714609274775535
+Regression Evaluation
+	RMSE test 7.620310756465616
+	MAE test 5.046635491345359
+	R2 test 0.07879413346851005
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.633302953001768
+	MAE train:  5.117937694503508
+	R2 train:  0.04843389018202171
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.499376124057102
+	MAE train:  4.971607795790875
+	R2 train:  0.07304689121490215
+Regression Evaluation
+	RMSE test 7.6263730778022785
+	MAE test 5.0759099660371465
+	R2 test 0.07940792474247094
+
+RMSE CV score: 7.60092274727752 +- 0.02158351513220499
+MAE CV score: 5.05067339361465 +- 0.023260521089961468
+R2 CV score: 0.08405814873791599 +- 0.004888620213764682
+ 
+Training models with  classic features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.07521701964497
+	MAE train:  5.897864233787677
+	R2 train:  -0.05689083338296497
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.058649445855577
+	MAE train:  5.775468751081136
+	R2 train:  -0.061619819461505854
+Regression Evaluation
+	RMSE test 8.16531225005941
+	MAE test 5.785670229863935
+	R2 test -0.05773303114951123
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.058666646378452
+	MAE train:  5.906539922147247
+	R2 train:  -0.058970203400193544
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.035792960002665
+	MAE train:  5.7875044457994465
+	R2 train:  -0.06113743886416789
+Regression Evaluation
+	RMSE test 8.159806954723331
+	MAE test 5.794822953941278
+	R2 test -0.05573085545751222
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.058787341565429
+	MAE train:  5.902106755415087
+	R2 train:  -0.05896374367821022
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.03172378557738
+	MAE train:  5.7878198568765855
+	R2 train:  -0.06152046897863217
+Regression Evaluation
+	RMSE test 8.151366168899862
+	MAE test 5.795305271717665
+	R2 test -0.05355518295970252
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.058371062979218
+	MAE train:  5.897378938778176
+	R2 train:  -0.05960069826998127
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.01790208482727
+	MAE train:  5.774439588390685
+	R2 train:  -0.06019148941386421
+Regression Evaluation
+	RMSE test 8.159129107298652
+	MAE test 5.792574259452809
+	R2 test -0.05608516283726517
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.0509464655324
+	MAE train:  5.893509241300786
+	R2 train:  -0.05854139368864231
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.022847055103835
+	MAE train:  5.78152492629161
+	R2 train:  -0.06087574418794528
+Regression Evaluation
+	RMSE test 8.163115467821312
+	MAE test 5.794073276616562
+	R2 test -0.05473417387023005
+
+RMSE CV score: 8.159745989760513 +- 0.0047527317296964374
+MAE CV score: 5.79248919831845 +- 0.003532465284518745
+R2 CV score: -0.05556768125484424 +- 0.001394850323371669
+ 
+Training models with  pupil features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.045037592697819
+	MAE train:  5.4660791762639755
+	R2 train:  -0.04900578047394899
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.070907776166898
+	MAE train:  5.418660240380834
+	R2 train:  -0.06485201967470222
+Regression Evaluation
+	RMSE test 8.07745850870176
+	MAE test 5.4147292831343705
+	R2 test -0.03509436430037005
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.985182766157117
+	MAE train:  5.459373757010442
+	R2 train:  -0.0397455722666169
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.020136423581569
+	MAE train:  5.422039463177298
+	R2 train:  -0.057006532964626766
+Regression Evaluation
+	RMSE test 8.13632352371028
+	MAE test 5.405296989391668
+	R2 test -0.049662940456950855
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.983793546379257
+	MAE train:  5.45569726775479
+	R2 train:  -0.03934635169116274
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.012761110496983
+	MAE train:  5.416291109032687
+	R2 train:  -0.05651394585550529
+Regression Evaluation
+	RMSE test 8.176150959454935
+	MAE test 5.419878750304661
+	R2 test -0.05997173741044026
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.978326640072181
+	MAE train:  5.44212975991318
+	R2 train:  -0.038655053513551474
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.993959606127388
+	MAE train:  5.3960374306671905
+	R2 train:  -0.0538692089638082
+Regression Evaluation
+	RMSE test 8.146661135658574
+	MAE test 5.409038099679872
+	R2 test -0.05286001974860599
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.977771377966338
+	MAE train:  5.428080534587525
+	R2 train:  -0.039386665098405826
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.9979782140203834
+	MAE train:  5.393268593143395
+	R2 train:  -0.054309032866874274
+Regression Evaluation
+	RMSE test 8.150816508247635
+	MAE test 5.424726303884573
+	R2 test -0.05155833719779279
+
+RMSE CV score: 8.137482127154637 +- 0.0327460398883134
+MAE CV score: 5.414733885279029 +- 0.007040100347020407
+R2 CV score: -0.04982947982283199 +- 0.008150949317211475
+ 
+Training models with  ou features
+Standard Deviation of labels 7.82077409617085
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+ 
+Saccades Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+
+-------------------------------
+
+Fold 1 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.972291045381517
+	MAE train:  5.672450341920186
+	R2 train:  -0.030120467006136575
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.9142889809128905
+	MAE train:  5.542743274037635
+	R2 train:  -0.023925354869240856
+Regression Evaluation
+	RMSE test 7.958159887624277
+	MAE test 5.5684662237757605
+	R2 test -0.004744859529721701
+
+Fold 2 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.932063879629155
+	MAE train:  5.678246077996711
+	R2 train:  -0.025958429689324936
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.894233321079251
+	MAE train:  5.554533920811838
+	R2 train:  -0.02408045242928858
+Regression Evaluation
+	RMSE test 7.877014342991475
+	MAE test 5.514765606829733
+	R2 test 0.016177572548720764
+
+Fold 3 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.91621424316406
+	MAE train:  5.6646422202895925
+	R2 train:  -0.021825599516879457
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.885330680943874
+	MAE train:  5.553953842831328
+	R2 train:  -0.02317675578170597
+Regression Evaluation
+	RMSE test 7.917876064028625
+	MAE test 5.545049093833559
+	R2 test 0.005937062413019389
+
+Fold 4 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.91797245875932
+	MAE train:  5.656612539839085
+	R2 train:  -0.02300012452815281
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.874951703609788
+	MAE train:  5.534511689901483
+	R2 train:  -0.022724394297087613
+Regression Evaluation
+	RMSE test 7.953239207267211
+	MAE test 5.544675545046498
+	R2 test -0.003458509355278583
+
+Fold 5 of 5
+
+Training Fixations
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.915784906923614
+	MAE train:  5.649093094113972
+	R2 train:  -0.023297557195210983
+Training Saccades
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.890925552754391
+	MAE train:  5.544720393669404
+	R2 train:  -0.02627414027728725
+Regression Evaluation
+	RMSE test 7.922428807421115
+	MAE test 5.538770735040694
+	R2 test 0.006545849132193693
+
+RMSE CV score: 7.925743661866541 +- 0.029169335210176617
+MAE CV score: 5.542345440905249 +- 0.017137445503255876
+R2 CV score: 0.004091423041786712 +- 0.00762347651547083
+ 
