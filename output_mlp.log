@@ -402,7 +402,7 @@ Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
 Regression Evaluation
 	RMSE test 73.53006620941531
 	MAE test 7.498885228582113
-	R2 test -84.57778712816086
+                        R2 test -84.57778712816086
 
 RMSE CV score: 20.569458605096674 +- 26.48044213634828
 MAE CV score: 6.001027034173224 +- 0.7513731793789806
