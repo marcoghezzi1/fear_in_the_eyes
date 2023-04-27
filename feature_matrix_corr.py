@@ -376,8 +376,8 @@ def get_features(data, config='all_features', typ='sac'):
 
 dataset_name = 'Reutter_OU_posterior_VI'
 models_regression = [ #'GPR',
-                      #SVR( C=1000, kernel='rbf', gamma=0.002), 
-                      RandomForestRegressor(), 
+                      #SVR( C=1000, kernel='rbf', gamma=0.002),
+                      RandomForestRegressor(),
                       MLPRegressor(hidden_layer_sizes=(100, 50, 25))
                     ]
 
@@ -389,26 +389,19 @@ data_fix, data_sac = load_dataset(directory_ou, directory_gazetime, directory_pu
 map_ss_sias = {} # Mapping (subject, stimulus) to Social Anxiety of the subject
 
 for x in data_fix[:, :3]:
+
     map_ss_sias[(int(x[0]), int(x[2]))] = x[1]
-
-
-for models, configuration in  [ (models_regression, 'all_features'), 
-                                (models_regression, 'classic_features'),
-                                (models_regression, 'pupil_features'), 
-                                (models_regression, 'ou_features') ]:
-
-    print('Training models with ', configuration.replace('_', ' '))
 
     map_ss_sias = {} # Mapping (subject, stimulus) to Social Anxiety of the subject
     for x in data_fix[:, :3]:
         map_ss_sias[(int(x[0]), int(x[2]))] = x[1]
 
-    X_fix = get_features( data_fix, configuration , typ='fix')
+    X_fix = get_features( data_fix , typ='fix')
     ids_f = data_fix[:, 0] # Subjects' ids (fixations)
     yf = data_fix[:, 1] # Labels (fixations)
     stim_f = data_fix[:, 2]  # Stimulus' ids (fixations)
-    
-    X_sac = get_features( data_sac, configuration, typ='sac')
+
+    X_sac = get_features( data_sac, typ='sac')
     ids_s = data_sac[:, 0] # Subjects' ids (saccades)
     ys = data_sac[:, 1] # Labels (saccades)
     stim_s = data_sac[:, 2] # Stimulus' ids (saccades)
@@ -433,4 +426,5 @@ for models, configuration in  [ (models_regression, 'all_features'),
     print('\n-------------------------------')
 
     print('\n-----------corr matrix------')
-    print(X_fix)
+    print(np.shape(X_fix))
+    print(type(X_fix))
