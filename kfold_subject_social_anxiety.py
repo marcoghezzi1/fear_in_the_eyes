@@ -196,7 +196,7 @@ def load_dataset(path_ou, path_gazetime, path_pupil):
     # Mapping subject ids to their label   
     map_sias = { x[1]['VP'] : x[1]['score']  for x in sias_df.iterrows() }
     
-    plt.hist( list(map_sias) )
+    #plt.hist( list(map_sias) )
 
     map_is_anxious = { x[1]['VP'] : x[1]['anxiety']  for x in sias_df.iterrows() }
 
