@@ -196,7 +196,7 @@ def load_dataset(path_ou, path_gazetime, path_pupil):
     # Mapping subject ids to their label   
     map_sias = { x[1]['VP'] : x[1]['score']  for x in sias_df.iterrows() }
     
-    plt.hist( list(map_sias) )
+    #plt.hist( list(map_sias) )
 
     map_is_anxious = { x[1]['VP'] : x[1]['anxiety']  for x in sias_df.iterrows() }
 
@@ -347,9 +347,9 @@ def get_features(data, config='all_features', typ='sac'):
 # MAIN ---------------------------------------------------------------------
 
 dataset_name = 'Reutter_OU_posterior_VI'
-models_regression = [ #'GPR',
-                      #SVR( C=1000, kernel='rbf', gamma=0.002), 
-                      RandomForestRegressor(n_estimators=1), 
+models_regression = [ 'GPR',
+                      SVR( C=1000, kernel='rbf', gamma=0.002),
+                      RandomForestRegressor(n_estimators=1,n_jobs=32),
                       MLPRegressor(hidden_layer_sizes=(100, 50, 25))
                     ]
 
