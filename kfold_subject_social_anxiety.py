@@ -41,7 +41,7 @@ def train_sklearn(X, y, model, fold, config, model_type='fix'):
 
     # if the model computes features importance
     if type(pipe_reg[1]) == RandomForestRegressor: 
-        with open('./results_subject/features_importance/RF_'+model_type+'_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/features_importance/RF_'+model_type+'_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, pipe_reg[1].feature_importances_)
 
     y_pred = pipe_reg.predict(X)
@@ -68,7 +68,7 @@ def normalize_data_and_train_gpr(train_X, train_y, test_X, fold, config, model_t
     reg.optimize()
 
     # Saving Feature importance
-    with open('./results_subject/features_importance/GPR_'+model_type+'_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+    with open('./results/kfold_subject/features_importance/GPR_'+model_type+'_'+config+'_'+str(fold)+'.npy', 'wb') as f:
         np.save(f, reg.kern.lengthscale.values)
 
     # Return the normalized test_X
@@ -83,18 +83,18 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     if type(reg_fix) ==  GPy.models.SparseGPRegression:
         ppred_fix, ppred_fix_var  = reg_fix.predict(X_fix_test)
         #Saving datapoint based results
-        with open('./results_subject/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix)
-        with open('./results_subject/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_fix).__name__+'_ppred_fix_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix_var)
-        with open('./results_subject/datapoint_based/'+type(reg_fix).__name__+'_y_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_fix).__name__+'_y_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_f_test)
     else:
         ppred_fix = reg_fix.predict(X_fix_test)
         #Saving datapoint based results
-        with open('./results_subject/datapoint_based/'+type(reg_fix[1]).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_fix[1]).__name__+'_ppred_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_fix)
-        with open('./results_subject/datapoint_based/'+type(reg_fix[1]).__name__+'_y_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_fix[1]).__name__+'_y_fix_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_f_test)
 
     key_fix, ppred_fix_comb = npi.group_by(sub_f_test).mean(ppred_fix)
@@ -108,18 +108,18 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     if type(reg_sac) ==  GPy.models.SparseGPRegression:
         ppred_sac, ppred_sac_var = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results_subject/datapoint_based/'+type(reg_sac).__name__+'_ppred_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_sac).__name__+'_ppred_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
-        with open('./results_subject/datapoint_based/'+type(reg_sac).__name__+'_ppred_sac_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_sac).__name__+'_ppred_sac_var_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac_var)
-        with open('./results_subject/datapoint_based/'+type(reg_sac).__name__+'_y_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_sac).__name__+'_y_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_s_test)
     else:
         ppred_sac = reg_sac.predict(X_sac_test) # Gaussian processes return both prediction and uncertainty
         #Saving datapoint based results
-        with open('./results_subject/datapoint_based/'+type(reg_sac[1]).__name__+'_ppred_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_sac[1]).__name__+'_ppred_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, ppred_sac)
-        with open('./results_subject/datapoint_based/'+type(reg_sac[1]).__name__+'_y_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/datapoint_based/'+type(reg_sac[1]).__name__+'_y_sac_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_s_test)
     
     key_sac, ppred_sac_comb = npi.group_by(sub_s_test).mean(ppred_sac)
@@ -136,15 +136,15 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
     
     if type(reg_sac) ==  GPy.models.SparseGPRegression:
         #Saving trial based results
-        with open('./results_subject/subject_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/subject_based/'+type(reg_sac).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_pred)
-        with open('./results_subject/subject_based/'+type(reg_sac).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/subject_based/'+type(reg_sac).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_test)
     else:
         #Saving trial based results
-        with open('./results_subject/subject_based/'+type(reg_sac[1]).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/subject_based/'+type(reg_sac[1]).__name__+'_y_pred_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_pred)
-        with open('./results_subject/subject_based/'+type(reg_sac[1]).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
+        with open('./results/kfold_subject/subject_based/'+type(reg_sac[1]).__name__+'_y_test_'+config+'_'+str(fold)+'.npy', 'wb') as f:
             np.save(f, y_test)
 
     rmse = mean_squared_error(y_test, y_pred, squared=False)
