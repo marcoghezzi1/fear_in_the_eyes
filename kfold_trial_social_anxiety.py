@@ -166,6 +166,11 @@ def evaluate(reg_fix, reg_sac, X_fix_test, y_f_test, stim_f_test, sub_f_test, X_
 
 
 def load_dataset(path_ou, path_gazetime, path_pupil):
+    if os.path.exists('./pre_loaded/data_sac.npy'):
+        data_sac = np.load('./pre_loaded/data_sac.npy', allow_pickle=True)
+        data_fix = np.load('./pre_loaded/data_fix.npy', allow_pickle=True)
+        return data_fix, data_sac
+
     global_data_fix = []
     global_data_sac = []
 
@@ -233,7 +238,14 @@ def load_dataset(path_ou, path_gazetime, path_pupil):
 
     data_fix = np.vstack(global_data_fix)
     data_sac = np.vstack(global_data_sac)
+
+    # Saving npy files for a faster reloading
+    with open('./pre_loaded/data_sac.npy', 'wb') as f:
+        np.save(f, data_sac)
+    with open('./pre_loaded/data_fix.npy', 'wb') as f:
+        np.save(f, data_fix)
     print('\nLoaded ' + str(subs_considered) + ' subjects...')
+
     return data_fix, data_sac
 
 def get_CV_splits(stim_f, ids_f, k):
@@ -377,10 +389,10 @@ def get_features(data, config='all_features', typ='sac'):
 # MAIN ---------------------------------------------------------------------
 
 dataset_name = 'Reutter_OU_posterior_VI'
-models_regression = [ 'GPR',
-                      SVR( C=1000, kernel='rbf', gamma=0.002), 
-                      RandomForestRegressor(), 
-                      MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+models_regression = [ #'GPR',
+                      #SVR( C=1000, kernel='rbf', gamma=0.002), 
+                      RandomForestRegressor(n_estimators=1), 
+                      #MLPRegressor(hidden_layer_sizes=(100, 50, 25))
                     ]
 
 directory_ou = join(join('features', dataset_name), 'train')
@@ -394,10 +406,11 @@ for x in data_fix[:, :3]:
     map_ss_sias[(int(x[0]), int(x[2]))] = x[1]
 
 
-for models, configuration in  [ (models_regression, 'all_features'), 
-                                (models_regression, 'classic_features'),
+for models, configuration in  [ #(models_regression, 'all_features'), 
+                                #(models_regression, 'classic_features'),
                                 (models_regression, 'pupil_features'), 
-                                (models_regression, 'ou_features') ]:
+                                #(models_regression, 'ou_features') 
+                                ]:
 
     print('Training models with ', configuration.replace('_', ' '))
 
@@ -414,7 +427,6 @@ for models, configuration in  [ (models_regression, 'all_features'),
     ids_s = data_sac[:, 0] # Subjects' ids (saccades)
     ys = data_sac[:, 1] # Labels (saccades)
     stim_s = data_sac[:, 2] # Stimulus' ids (saccades)
-
 
     print('Standard Deviation of labels', np.std(list(yf) + list(ys)) )
 

@@ -167,7 +167,7 @@ def load_dataset(path_ou, path_gazetime, path_pupil):
     if os.path.exists('./pre_loaded/data_sac.npy'):
         data_sac = np.load('./pre_loaded/data_sac.npy', allow_pickle=True)
         data_fix = np.load('./pre_loaded/data_fix.npy', allow_pickle=True)
-        return data_sac, data_fix
+        return data_fix, data_sac
 
     global_data_fix = []
     global_data_sac = []
@@ -364,10 +364,11 @@ for x in data_fix[:, :3]:
     map_ss_sias[int(x[0])] = x[1]
 
 
-for models, configuration in  [ (models_regression, 'all_features'), 
-                                (models_regression, 'classic_features'),
+for models, configuration in  [ #(models_regression, 'all_features'), 
+                                #(models_regression, 'classic_features'),
                                 (models_regression, 'pupil_features'), 
-                                (models_regression, 'ou_features') ]:
+                                #(models_regression, 'ou_features') 
+                                ]:
 
     print('Training models with ', configuration.replace('_', ' '))
 
