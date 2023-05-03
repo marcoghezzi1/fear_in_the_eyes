@@ -389,10 +389,10 @@ def get_features(data, config='all_features', typ='sac'):
 # MAIN ---------------------------------------------------------------------
 
 dataset_name = 'Reutter_OU_posterior_VI'
-models_regression = [ #'GPR',
-                      #SVR( C=1000, kernel='rbf', gamma=0.002), 
-                      RandomForestRegressor(n_estimators=1), 
-                      #MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+models_regression = [ 'GPR',
+                      SVR( C=1000, kernel='rbf', gamma=0.002), 
+                      RandomForestRegressor(), 
+                      MLPRegressor(hidden_layer_sizes=(100, 50, 25))
                     ]
 
 directory_ou = join(join('features', dataset_name), 'train')
@@ -406,11 +406,10 @@ for x in data_fix[:, :3]:
     map_ss_sias[(int(x[0]), int(x[2]))] = x[1]
 
 
-for models, configuration in  [ #(models_regression, 'all_features'), 
-                                #(models_regression, 'classic_features'),
+for models, configuration in  [ (models_regression, 'all_features'), 
+                                (models_regression, 'classic_features'),
                                 (models_regression, 'pupil_features'), 
-                                #(models_regression, 'ou_features') 
-                                ]:
+                                (models_regression, 'ou_features') ]:
 
     print('Training models with ', configuration.replace('_', ' '))
 
