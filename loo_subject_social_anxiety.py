@@ -71,6 +71,14 @@ def normalize_data_and_train_gpr(train_X, train_y, test_X, fold, config):
     with open('./results/loo_subject/features_importance/GPR_'+config+'_'+str(fold)+'.npy', 'wb') as f:
         np.save(f, reg.kern.lengthscale.values)
 
+    y_pred, y_pred_var  = reg.predict(train_X)
+    mse = mean_squared_error(train_y, y_pred, squared=False)
+    mae = mean_absolute_error(train_y, y_pred)
+    r2 = r2_score(train_y, y_pred)
+    print('\tRMSE train: ', mse)
+    print('\tMAE train: ', mae)
+    print('\tR2 train: ', r2)
+
     # Return the trained model and normalized test_X
     return reg, test_X
 
