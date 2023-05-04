@@ -1,0 +1,5448 @@
+
+Training models with  all features
+Standard Deviation of labels 7.939127521871982
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+ 
+Saccades Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+
+-------------------------------
+
+Fold 1
+
+Training
+	RMSE train:  6.426945085040791
+	MAE train:  4.379515536034985
+	R2 train:  0.35981655308134797
+
+Fold 2
+
+Training
+	RMSE train:  6.745056521760993
+	MAE train:  4.369284861277583
+	R2 train:  0.2831597313426
+
+Fold 3
+
+Training
+	RMSE train:  6.09018638233229
+	MAE train:  4.053760736222987
+	R2 train:  0.40076555403575076
+
+Fold 4
+
+Training
+	RMSE train:  6.6633361775902475
+	MAE train:  4.7337223402735935
+	R2 train:  0.3036896323513444
+
+Fold 5
+
+Training
+	RMSE train:  6.359441680520829
+	MAE train:  4.279579123786489
+	R2 train:  0.3686731326914273
+
+Fold 6
+
+Training
+	RMSE train:  6.340216937121877
+	MAE train:  4.2853584002217575
+	R2 train:  0.37702709573090987
+
+Fold 7
+
+Training
+	RMSE train:  6.390031358567484
+	MAE train:  4.245114920394654
+	R2 train:  0.360201355953355
+
+Fold 8
+
+Training
+	RMSE train:  6.834199051972741
+	MAE train:  4.772196360497369
+	R2 train:  0.26004874878062134
+
+Fold 9
+
+Training
+	RMSE train:  6.0697926803445
+	MAE train:  4.127048066028794
+	R2 train:  0.41631897315829625
+
+Fold 10
+
+Training
+	RMSE train:  6.354008396612549
+	MAE train:  4.291173322396904
+	R2 train:  0.3727433710564647
+
+Fold 11
+
+Training
+	RMSE train:  6.694347955515948
+	MAE train:  4.755606473950586
+	R2 train:  0.29002276181818465
+
+Fold 12
+
+Training
+	RMSE train:  6.31090252444064
+	MAE train:  4.259704728767718
+	R2 train:  0.3778277227492335
+
+Fold 13
+
+Training
+	RMSE train:  6.661160927717013
+	MAE train:  4.723909188014127
+	R2 train:  0.3090095742823018
+
+Fold 14
+
+Training
+	RMSE train:  3.715503811430211
+	MAE train:  2.673073686402366
+	R2 train:  0.7014227003146729
+
+Fold 15
+
+Training
+	RMSE train:  6.665693408884349
+	MAE train:  4.743878013518201
+	R2 train:  0.31079474637160387
+
+Fold 16
+
+Training
+	RMSE train:  6.652921111965147
+	MAE train:  4.716017992567265
+	R2 train:  0.3107180189095047
+
+Fold 17
+
+Training
+	RMSE train:  6.877490317955949
+	MAE train:  4.736700097097638
+	R2 train:  0.2633992557644693
+
+Fold 18
+
+Training
+	RMSE train:  6.705425705795409
+	MAE train:  4.806179812619736
+	R2 train:  0.3031911918081138
+
+Fold 19
+
+Training
+	RMSE train:  6.3418290489460825
+	MAE train:  4.2720444588480335
+	R2 train:  0.37671025178824125
+
+Fold 20
+
+Training
+	RMSE train:  5.725790696988444
+	MAE train:  3.732773161194301
+	R2 train:  0.44198983073630793
+
+Fold 21
+
+Training
+	RMSE train:  6.68184879261429
+	MAE train:  4.739606085649284
+	R2 train:  0.30634586754531534
+
+Fold 22
+
+Training
+	RMSE train:  6.477512711674069
+	MAE train:  4.426543903728039
+	R2 train:  0.33889908963930393
+
+Fold 23
+
+Training
+	RMSE train:  6.4187960100237
+	MAE train:  4.281547345788404
+	R2 train:  0.35442829922655505
+
+Fold 24
+
+Training
+	RMSE train:  6.516819664650657
+	MAE train:  4.4310903035790785
+	R2 train:  0.3279941909997963
+
+Fold 25
+
+Training
+	RMSE train:  6.385700326497322
+	MAE train:  4.32421186961116
+	R2 train:  0.35750718571638307
+
+Fold 26
+
+Training
+	RMSE train:  6.679808243750952
+	MAE train:  4.744397526811798
+	R2 train:  0.3067694685778445
+
+Fold 27
+
+Training
+	RMSE train:  6.305584773684373
+	MAE train:  4.24400300735653
+	R2 train:  0.38325072385536507
+
+Fold 28
+
+Training
+	RMSE train:  6.567142821117823
+	MAE train:  4.713852854082655
+	R2 train:  0.303231473505149
+
+Fold 29
+
+Training
+	RMSE train:  6.690808362651525
+	MAE train:  4.765591276387464
+	R2 train:  0.2979361777841282
+
+Fold 30
+
+Training
+	RMSE train:  5.914154448330082
+	MAE train:  3.912903337129052
+	R2 train:  0.433925822163463
+
+Fold 31
+
+Training
+	RMSE train:  5.738081642742667
+	MAE train:  4.255656270305134
+	R2 train:  0.4526676017187926
+
+Fold 32
+
+Training
+	RMSE train:  6.423068872059693
+	MAE train:  4.394792203617381
+	R2 train:  0.35299956944788957
+
+Fold 33
+
+Training
+	RMSE train:  6.309925393494644
+	MAE train:  4.469960924037685
+	R2 train:  0.378020372443584
+
+Fold 34
+
+Training
+	RMSE train:  6.7694921566359305
+	MAE train:  4.79464175463899
+	R2 train:  0.2867481961632271
+
+Fold 35
+
+Training
+	RMSE train:  6.350818370944855
+	MAE train:  4.296855594495635
+	R2 train:  0.37437038909252585
+
+Fold 36
+
+Training
+	RMSE train:  6.68734359127836
+	MAE train:  4.756514897054882
+	R2 train:  0.2880292105758978
+
+Fold 37
+
+Training
+	RMSE train:  6.331547999113091
+	MAE train:  4.259185354896313
+	R2 train:  0.3787295048118712
+
+Fold 38
+
+Training
+	RMSE train:  6.389918091845325
+	MAE train:  4.33359329564904
+	R2 train:  0.36449161889471793
+
+Fold 39
+
+Training
+	RMSE train:  6.928382177458488
+	MAE train:  4.6211828062064155
+	R2 train:  0.2292688844584292
+
+Fold 40
+
+Training
+	RMSE train:  6.376496721843976
+	MAE train:  4.34961247830933
+	R2 train:  0.36829549742237244
+
+Fold 41
+
+Training
+	RMSE train:  6.403232127286212
+	MAE train:  4.330718230434333
+	R2 train:  0.3569897380330386
+
+Fold 42
+
+Training
+	RMSE train:  7.0372555039529505
+	MAE train:  5.018045860000102
+	R2 train:  0.19851636473591694
+
+Fold 43
+
+Training
+	RMSE train:  6.307946215423538
+	MAE train:  4.423889248003486
+	R2 train:  0.3227529221769906
+Regression Evaluation
+	RMSE test 9.732943690416066
+	MAE test 6.54639936323573
+	R2 test -0.5029442315784651
+
+Fold 1
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.3345699015763905
+	MAE train:  1.962175689364533
+	R2 train:  0.5589436461886241
+
+Fold 2
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.740544647807886
+	MAE train:  1.8351830768921022
+	R2 train:  0.4807728354574007
+
+Fold 3
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.608573921279253
+	MAE train:  2.0217724944635567
+	R2 train:  0.4917931682619372
+
+Fold 4
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.583301730949203
+	MAE train:  1.9777334402191677
+	R2 train:  0.5111207448546943
+
+Fold 5
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.656514559644852
+	MAE train:  2.0400628837143864
+	R2 train:  0.5005245893083382
+
+Fold 6
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.778816651443241
+	MAE train:  1.9955957368816608
+	R2 train:  0.4824661593171985
+
+Fold 7
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.732012177218777
+	MAE train:  2.041584372310334
+	R2 train:  0.4851845817194922
+
+Fold 8
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.649250839574519
+	MAE train:  2.0506380027056954
+	R2 train:  0.4943970737308677
+
+Fold 9
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.683096354379216
+	MAE train:  2.051561069949908
+	R2 train:  0.4883206387224276
+
+Fold 10
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.830564526404532
+	MAE train:  1.934397913059632
+	R2 train:  0.47183343775987296
+
+Fold 11
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.931455025218903
+	MAE train:  2.0710918527208326
+	R2 train:  0.4426213303213685
+
+Fold 12
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.737648746985382
+	MAE train:  2.0643401199552627
+	R2 train:  0.4857247468505749
+
+Fold 13
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.80012575277668
+	MAE train:  2.1068166886916977
+	R2 train:  0.47610169032767724
+
+Fold 14
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  3.15754696955609
+	MAE train:  1.323253874969861
+	R2 train:  0.7843641312680625
+
+Fold 15
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.810323407377975
+	MAE train:  2.098169348990099
+	R2 train:  0.4763290009281993
+
+Fold 16
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.5748926361870845
+	MAE train:  2.0461879475433657
+	R2 train:  0.5160001869426704
+
+Fold 17
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.892497405126249
+	MAE train:  2.1044699558983915
+	R2 train:  0.4592818122513208
+
+Fold 18
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.825294432753973
+	MAE train:  2.068008791658612
+	R2 train:  0.4741078548414136
+
+Fold 19
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.704151369413616
+	MAE train:  2.0681432170378318
+	R2 train:  0.49575336895318944
+
+Fold 20
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.412193582694737
+	MAE train:  1.8452026607246859
+	R2 train:  0.5014395536447749
+
+Fold 21
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.694677380397329
+	MAE train:  2.041834494835812
+	R2 train:  0.4961654551395891
+
+Fold 22
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.517076075313852
+	MAE train:  2.001034103578848
+	R2 train:  0.5204110674345985
+
+Fold 23
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.77800054715065
+	MAE train:  2.0954438744490758
+	R2 train:  0.47689063661797537
+
+Fold 24
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.740470592963689
+	MAE train:  2.114232020766142
+	R2 train:  0.4785692802566103
+
+Fold 25
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.770164442451502
+	MAE train:  2.122619731883106
+	R2 train:  0.4754008438106807
+
+Fold 26
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.675437967010662
+	MAE train:  2.07268248487317
+	R2 train:  0.4995641047113871
+
+Fold 27
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.733976404875121
+	MAE train:  2.0312379339284923
+	R2 train:  0.4900005428533307
+
+Fold 28
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.763555583403252
+	MAE train:  2.0891798493796587
+	R2 train:  0.46331856292810747
+
+Fold 29
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.7307798627470135
+	MAE train:  2.059778934077261
+	R2 train:  0.4849529970269608
+
+Fold 30
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.594250675442023
+	MAE train:  1.8700056559014837
+	R2 train:  0.4935088438738876
+
+Fold 31
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.377488326481382
+	MAE train:  1.7682135759015145
+	R2 train:  0.5192971883849148
+
+Fold 32
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.74323384593569
+	MAE train:  2.0784948018050833
+	R2 train:  0.482711990860193
+
+Fold 33
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.459243950046593
+	MAE train:  1.888040696085431
+	R2 train:  0.5344217170669832
+
+Fold 34
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.789522760152362
+	MAE train:  2.086871775538687
+	R2 train:  0.4783055325216311
+
+Fold 35
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.874922902671975
+	MAE train:  2.0986813810912004
+	R2 train:  0.4646198634010673
+
+Fold 36
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.688754928910333
+	MAE train:  2.0542615886314874
+	R2 train:  0.48478398950298607
+
+Fold 37
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.802690267445921
+	MAE train:  2.0992584480730248
+	R2 train:  0.4781812247256394
+
+Fold 38
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.8597752791726325
+	MAE train:  2.1007996654438092
+	R2 train:  0.4655677931749985
+
+Fold 39
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.599540781918879
+	MAE train:  2.0374500912877447
+	R2 train:  0.49656425893406064
+
+Fold 40
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.823573179399452
+	MAE train:  2.1078456689270477
+	R2 train:  0.47309931238552394
+
+Fold 41
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.82525900036074
+	MAE train:  2.113717978666052
+	R2 train:  0.4678306093371801
+
+Fold 42
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.690842369710882
+	MAE train:  2.054656799599915
+	R2 train:  0.4758674478802384
+
+Fold 43
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.7755874986420235
+	MAE train:  2.0832161508266305
+	R2 train:  0.43224167383553536
+Regression Evaluation
+	RMSE test 9.920318756176316
+	MAE test 6.347779109993423
+	R2 test -0.5613695242096539
+
+Fold 1
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.441777295581594
+	MAE train:  2.3773809523809524
+	R2 train:  0.8164050238982217
+
+Fold 2
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1410454735114337
+	MAE train:  2.2600000000000002
+	R2 train:  0.8445468041016113
+
+Fold 3
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.594872009113087
+	MAE train:  2.355238095238095
+	R2 train:  0.7912134743783487
+
+Fold 4
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.285274867097265
+	MAE train:  2.3121428571428573
+	R2 train:  0.8307366879739689
+
+Fold 5
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.417215170838606
+	MAE train:  2.3554761904761903
+	R2 train:  0.8177107972495818
+
+Fold 6
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1132359523874986
+	MAE train:  2.2704761904761908
+	R2 train:  0.8497947902481879
+
+Fold 7
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0688100687555164
+	MAE train:  2.149047619047619
+	R2 train:  0.8524370403268787
+
+Fold 8
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1501972727343373
+	MAE train:  2.255238095238095
+	R2 train:  0.842781603125421
+
+Fold 9
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0673980753043697
+	MAE train:  2.2078571428571427
+	R2 train:  0.8509375885760474
+
+Fold 10
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.374165858118898
+	MAE train:  2.420952380952381
+	R2 train:  0.8231184463625154
+
+Fold 11
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.238286216356982
+	MAE train:  2.140714285714286
+	R2 train:  0.8338660757106291
+
+Fold 12
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0318731440983413
+	MAE train:  2.2340476190476193
+	R2 train:  0.8564015462274177
+
+Fold 13
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5333462488533036
+	MAE train:  2.366428571428571
+	R2 train:  0.8055783726042394
+
+Fold 14
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  2.76893180366244
+	MAE train:  2.0383333333333336
+	R2 train:  0.834176574301128
+
+Fold 15
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.482176727552001
+	MAE train:  2.430238095238095
+	R2 train:  0.8119126757590946
+
+Fold 16
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3479784234384673
+	MAE train:  2.3197619047619047
+	R2 train:  0.8254429157875222
+
+Fold 17
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1808347212342745
+	MAE train:  2.238571428571429
+	R2 train:  0.8424369479046199
+
+Fold 18
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.473012278370793
+	MAE train:  2.380476190476191
+	R2 train:  0.8130723443883154
+
+Fold 19
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4266542755010354
+	MAE train:  2.3649999999999998
+	R2 train:  0.8180292853063914
+
+Fold 20
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0549787622985596
+	MAE train:  2.073809523809524
+	R2 train:  0.8411498726360478
+
+Fold 21
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.507291724122081
+	MAE train:  2.5176190476190476
+	R2 train:  0.8088855733662145
+
+Fold 22
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.257562629591991
+	MAE train:  2.343809523809524
+	R2 train:  0.8327998142127264
+
+Fold 23
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.481864921752901
+	MAE train:  2.4230952380952377
+	R2 train:  0.8100404316930183
+
+Fold 24
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.354886627848143
+	MAE train:  2.3035714285714284
+	R2 train:  0.8219027072120559
+
+Fold 25
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.331228144750965
+	MAE train:  2.2695238095238093
+	R2 train:  0.8251522848261816
+
+Fold 26
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2184823397726716
+	MAE train:  2.2590476190476187
+	R2 train:  0.8390644636251541
+
+Fold 27
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.415801865002181
+	MAE train:  2.439761904761905
+	R2 train:  0.819014720236368
+
+Fold 28
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2957534003912485
+	MAE train:  2.3352380952380947
+	R2 train:  0.8245129715620277
+
+Fold 29
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4187758878622874
+	MAE train:  2.2795238095238095
+	R2 train:  0.816700754794143
+
+Fold 30
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1956026333817205
+	MAE train:  2.2990476190476192
+	R2 train:  0.8347301772542113
+
+Fold 31
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3796396680288696
+	MAE train:  2.2354761904761906
+	R2 train:  0.8101290568811489
+
+Fold 32
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0523609129421674
+	MAE train:  2.090238095238095
+	R2 train:  0.8538862190058766
+
+Fold 33
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3209260756602217
+	MAE train:  2.261190476190476
+	R2 train:  0.827715531349628
+
+Fold 34
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.061029238671202
+	MAE train:  2.2380952380952372
+	R2 train:  0.8541636937954401
+
+Fold 35
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3876115339220796
+	MAE train:  2.352142857142857
+	R2 train:  0.8219897063866832
+
+Fold 36
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.330297069546285
+	MAE train:  2.2459523809523807
+	R2 train:  0.8234284004656998
+
+Fold 37
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4351211249178895
+	MAE train:  2.354761904761905
+	R2 train:  0.8171289189545354
+
+Fold 38
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4283645274873167
+	MAE train:  2.436428571428572
+	R2 train:  0.8170616803134044
+
+Fold 39
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4505361902173983
+	MAE train:  2.2609523809523813
+	R2 train:  0.8088332335138579
+
+Fold 40
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.257015139517718
+	MAE train:  2.351428571428572
+	R2 train:  0.8351878421701603
+
+Fold 41
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2207101405627627
+	MAE train:  2.2802380952380954
+	R2 train:  0.8373242965478613
+
+Fold 42
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.175765749427703
+	MAE train:  2.1321428571428567
+	R2 train:  0.8367756523175162
+
+Fold 43
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.350751159566066
+	MAE train:  2.43952380952381
+	R2 train:  0.8089022693940563
+Regression Evaluation
+	RMSE test 8.776853941833547
+	MAE test 6.047674418604651
+	R2 test -0.22217159736404013
+
+Fold 1
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.0423954022490134
+	MAE train:  0.6409549116975843
+	R2 train:  0.9831592962321017
+
+Fold 2
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.8150713567997003
+	MAE train:  0.5197215645265604
+	R2 train:  0.9895325120349491
+
+Fold 3
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.8994759860354465
+	MAE train:  0.5675118141088775
+	R2 train:  0.9869288214018627
+
+Fold 4
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.634546138300748
+	MAE train:  1.0700758661399423
+	R2 train:  0.9581000234528091
+
+Fold 5
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.214595151743601
+	MAE train:  0.7613435144045284
+	R2 train:  0.9769707719491394
+
+Fold 6
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.8920693861900706
+	MAE train:  0.5810997380840539
+	R2 train:  0.9876672992649457
+
+Fold 7
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.091617959881986
+	MAE train:  0.6785394441535908
+	R2 train:  0.981328522696089
+
+Fold 8
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.176646130151676
+	MAE train:  0.764477405534612
+	R2 train:  0.9780659109262202
+
+Fold 9
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.0967861595156763
+	MAE train:  0.6757692596004714
+	R2 train:  0.9809422430481847
+
+Fold 10
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.055521132188389
+	MAE train:  0.6999987503086648
+	R2 train:  0.9826905385422283
+
+Fold 11
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.40465670597945
+	MAE train:  1.0495252035530145
+	R2 train:  0.9687414912716695
+
+Fold 12
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.968002576882708
+	MAE train:  1.3581609939173276
+	R2 train:  0.9394967036169293
+
+Fold 13
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.2917293243840402
+	MAE train:  0.8061627915405578
+	R2 train:  0.974015449064265
+
+Fold 14
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.152508700712505
+	MAE train:  0.776582682063402
+	R2 train:  0.9712717091416798
+
+Fold 15
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.3458248043516756
+	MAE train:  0.9281036950910148
+	R2 train:  0.9719046163094722
+
+Fold 16
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.224859503319299
+	MAE train:  0.7900447764944198
+	R2 train:  0.9766361327389095
+
+Fold 17
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.7387747477799786
+	MAE train:  1.1477516341813099
+	R2 train:  0.9529175746392824
+
+Fold 18
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.7208379934680544
+	MAE train:  0.5043067582937218
+	R2 train:  0.9919473975293045
+
+Fold 19
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.9600511330228173
+	MAE train:  0.5679163408295321
+	R2 train:  0.9857160062725724
+
+Fold 20
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.6265440920210994
+	MAE train:  1.1174046048473862
+	R2 train:  0.9549699055835456
+
+Fold 21
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.102432181163491
+	MAE train:  1.5132279162146538
+	R2 train:  0.9313257884555639
+
+Fold 22
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.2382190564774849
+	MAE train:  0.815250791645182
+	R2 train:  0.9758428233793854
+
+Fold 23
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.3700633914037663
+	MAE train:  0.8597243427463181
+	R2 train:  0.970588399355446
+
+Fold 24
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.154955872583322
+	MAE train:  0.7198225722467648
+	R2 train:  0.9788927135694983
+
+Fold 25
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.2998884853459924
+	MAE train:  0.8759820281896538
+	R2 train:  0.9733766071391697
+
+Fold 26
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.123993240919911
+	MAE train:  0.7016455532148836
+	R2 train:  0.9803719529580963
+
+Fold 27
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.5553245112456549
+	MAE train:  0.9767431713218742
+	R2 train:  0.9624767934907658
+
+Fold 28
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.081614484583572
+	MAE train:  1.3210648111103187
+	R2 train:  0.929993848300378
+
+Fold 29
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.3395037439450146
+	MAE train:  0.8348713833853308
+	R2 train:  0.9718610896596284
+
+Fold 30
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.8434764460351196
+	MAE train:  0.578035967434
+	R2 train:  0.9884857954742533
+
+Fold 31
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.8780176706185638
+	MAE train:  0.566868407857134
+	R2 train:  0.9871848344003152
+
+Fold 32
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.214533389888293
+	MAE train:  0.7834138624878846
+	R2 train:  0.9768666605872026
+
+Fold 33
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.557745883543652
+	MAE train:  1.1550428183225487
+	R2 train:  0.962092867275081
+
+Fold 34
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.479275380724542
+	MAE train:  1.0029371737174744
+	R2 train:  0.9659412457634
+
+Fold 35
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.9529545128300356
+	MAE train:  0.5879730723465671
+	R2 train:  0.9859135274626956
+
+Fold 36
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  0.9566349549731914
+	MAE train:  0.6734285454135635
+	R2 train:  0.9854304079295038
+
+Fold 37
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.37422961332116
+	MAE train:  0.9363735529114404
+	R2 train:  0.9707329110375819
+
+Fold 38
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.0337290335950187
+	MAE train:  0.6598214110722227
+	R2 train:  0.9833680133313438
+
+Fold 39
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.0868731267095788
+	MAE train:  0.5925741528374475
+	R2 train:  0.9810330751973245
+
+Fold 40
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.1558282229053767
+	MAE train:  0.7961878006619274
+	R2 train:  0.9792443527757164
+
+Fold 41
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.0235677130833698
+	MAE train:  0.6883295352838614
+	R2 train:  0.9835694323236591
+
+Fold 42
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.8102497110217746
+	MAE train:  1.2836200989227506
+	R2 train:  0.9469647043499505
+
+Fold 43
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.2161577884375319
+	MAE train:  0.8423042540164167
+	R2 train:  0.9748260695880983
+Regression Evaluation
+	RMSE test 11.659495591240262
+	MAE test 8.465433914225228
+	R2 test -1.1568203345621098
+
+Training models with  classic features
+Standard Deviation of labels 7.939127521871982
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+ 
+Saccades Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+
+-------------------------------
+
+Fold 1
+
+Training
+	RMSE train:  8.032728358111587
+	MAE train:  6.245255504450869
+	R2 train:  -4.933120009975589e-05
+
+Fold 2
+
+Training
+	RMSE train:  7.966950951102877
+	MAE train:  6.130096026362038
+	R2 train:  -8.173170388570128e-05
+
+Fold 3
+
+Training
+	RMSE train:  7.867426337771162
+	MAE train:  5.946788058263282
+	R2 train:  -2.2404723218905076e-06
+
+Fold 4
+
+Training
+	RMSE train:  7.657883891350445
+	MAE train:  5.81882670320438
+	R2 train:  0.08031952451377766
+
+Fold 5
+
+Training
+	RMSE train:  7.749892609585326
+	MAE train:  5.872717886160235
+	R2 train:  0.06242144979579234
+
+Fold 6
+
+Training
+	RMSE train:  8.03302523249582
+	MAE train:  6.241333171283488
+	R2 train:  -4.4173922716828073e-05
+
+Fold 7
+
+Training
+	RMSE train:  7.477388264647884
+	MAE train:  5.496970915505065
+	R2 train:  0.12393324392291338
+
+Fold 8
+
+Training
+	RMSE train:  7.945222618570356
+	MAE train:  6.1110047764035595
+	R2 train:  -9.211169827527677e-05
+
+Fold 9
+
+Training
+	RMSE train:  7.945216001115567
+	MAE train:  6.111003126120936
+	R2 train:  -9.044577602335124e-05
+
+Fold 10
+
+Training
+	RMSE train:  7.764638074102488
+	MAE train:  5.957482593853656
+	R2 train:  0.06331810639370494
+
+Fold 11
+
+Training
+	RMSE train:  7.944859452876029
+	MAE train:  6.110447579291252
+	R2 train:  -6.879930138925516e-07
+
+Fold 12
+
+Training
+	RMSE train:  8.00077091271321
+	MAE train:  6.167780350838549
+	R2 train:  1.984335127436232e-05
+
+Fold 13
+
+Training
+	RMSE train:  7.692498917646352
+	MAE train:  5.853550932583073
+	R2 train:  0.07847511895284043
+
+Fold 14
+
+Training
+	RMSE train:  6.6729632046973455
+	MAE train:  5.283011045365393
+	R2 train:  0.03692785053070635
+
+Fold 15
+
+Training
+	RMSE train:  7.719989578471877
+	MAE train:  5.9049770646867
+	R2 train:  0.0755331578355436
+
+Fold 16
+
+Training
+	RMSE train:  8.013705480188763
+	MAE train:  6.187741417583032
+	R2 train:  -8.964910382758262e-05
+
+Fold 17
+
+Training
+	RMSE train:  8.013638665167813
+	MAE train:  6.187605814683221
+	R2 train:  -7.297249087789837e-05
+
+Fold 18
+
+Training
+	RMSE train:  7.724489350823472
+	MAE train:  5.917077614399264
+	R2 train:  0.0753008053638663
+
+Fold 19
+
+Training
+	RMSE train:  8.033040608234693
+	MAE train:  6.241270360054764
+	R2 train:  -4.800222708523094e-05
+
+Fold 20
+
+Training
+	RMSE train:  7.062798774940533
+	MAE train:  5.172831930007496
+	R2 train:  0.15096646846515027
+
+Fold 21
+
+Training
+	RMSE train:  7.683927055216846
+	MAE train:  5.844449537891511
+	R2 train:  0.0826899372716926
+
+Fold 22
+
+Training
+	RMSE train:  7.740147328600504
+	MAE train:  5.915877814646857
+	R2 train:  0.05604854139902449
+
+Fold 23
+
+Training
+	RMSE train:  7.9891365946001205
+	MAE train:  6.094244614361321
+	R2 train:  -8.526756034288319e-05
+
+Fold 24
+
+Training
+	RMSE train:  7.950028677758228
+	MAE train:  6.035470801684501
+	R2 train:  -8.983085524238987e-05
+
+Fold 25
+
+Training
+	RMSE train:  7.660740257930036
+	MAE train:  5.8277043517928195
+	R2 train:  0.07531740637156581
+
+Fold 26
+
+Training
+	RMSE train:  7.72028207532385
+	MAE train:  5.889597167604971
+	R2 train:  0.07398925146197166
+
+Fold 27
+
+Training
+	RMSE train:  8.029556904471178
+	MAE train:  6.226215691999954
+	R2 train:  -9.45746247071888e-05
+
+Fold 28
+
+Training
+	RMSE train:  7.867658333208384
+	MAE train:  5.947177591353795
+	R2 train:  -6.121766959066299e-05
+
+Fold 29
+
+Training
+	RMSE train:  7.661713956992473
+	MAE train:  5.824214233689324
+	R2 train:  0.07939934408054661
+
+Fold 30
+
+Training
+	RMSE train:  7.860883739557133
+	MAE train:  6.053413848155351
+	R2 train:  -7.084614384655907e-05
+
+Fold 31
+
+Training
+	RMSE train:  7.00319185193879
+	MAE train:  5.134897274562748
+	R2 train:  0.18471442622253842
+
+Fold 32
+
+Training
+	RMSE train:  7.601696217140712
+	MAE train:  5.754140608644439
+	R2 train:  0.09376583239615865
+
+Fold 33
+
+Training
+	RMSE train:  7.784124967244543
+	MAE train:  5.959209382245463
+	R2 train:  0.05344182557545807
+
+Fold 34
+
+Training
+	RMSE train:  8.015487796931895
+	MAE train:  6.152494910027194
+	R2 train:  2.1610833663476825e-05
+
+Fold 35
+
+Training
+	RMSE train:  8.029431161520371
+	MAE train:  6.225971251262161
+	R2 train:  -6.325188554856531e-05
+
+Fold 36
+
+Training
+	RMSE train:  7.925751849046626
+	MAE train:  6.006059959984277
+	R2 train:  -8.253305821126489e-05
+
+Fold 37
+
+Training
+	RMSE train:  7.724062342376792
+	MAE train:  5.886468978332708
+	R2 train:  0.07540303696393036
+
+Fold 38
+
+Training
+	RMSE train:  7.803970569546614
+	MAE train:  5.954779140061366
+	R2 train:  0.052101260577249175
+
+Fold 39
+
+Training
+	RMSE train:  7.445462788637856
+	MAE train:  5.631310580281207
+	R2 train:  0.1099331719323523
+
+Fold 40
+
+Training
+	RMSE train:  7.7073109840662015
+	MAE train:  5.871830731985413
+	R2 train:  0.07709827765184363
+
+Fold 41
+
+Training
+	RMSE train:  7.985602833641273
+	MAE train:  6.149283814379912
+	R2 train:  -8.019146155735513e-05
+
+Fold 42
+
+Training
+	RMSE train:  7.545389980218874
+	MAE train:  5.604355122547956
+	R2 train:  0.07859322215376585
+
+Fold 43
+
+Training
+	RMSE train:  7.345786076554816
+	MAE train:  5.473892049420744
+	R2 train:  0.08156647127034311
+Regression Evaluation
+	RMSE test 8.887076543637049
+	MAE test 6.775883294315517
+	R2 test -0.2530612091054347
+
+Fold 1
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.263361812664106
+	MAE train:  5.194089013651856
+	R2 train:  -0.05830000931766999
+
+Fold 2
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.084835198744667
+	MAE train:  5.140907367618415
+	R2 train:  -0.029896425173088437
+
+Fold 3
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.92786370664845
+	MAE train:  5.0496522135568425
+	R2 train:  -0.015425236854015756
+
+Fold 4
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.099714749777169
+	MAE train:  5.292918574111603
+	R2 train:  -0.0288661072089047
+
+Fold 5
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.221352989431953
+	MAE train:  5.2024625026890945
+	R2 train:  -0.05512250103228089
+
+Fold 6
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.26097385013691
+	MAE train:  5.21315074949272
+	R2 train:  -0.057604808367821336
+
+Fold 7
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.086946127765039
+	MAE train:  5.0374506659077705
+	R2 train:  -0.024722887687259165
+
+Fold 8
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.114078686309195
+	MAE train:  5.182821240757957
+	R2 train:  -0.043052794865657606
+
+Fold 9
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.102195287111112
+	MAE train:  5.214446549731739
+	R2 train:  -0.03999984536293866
+
+Fold 10
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.231989966334165
+	MAE train:  5.309927815785353
+	R2 train:  -0.052832676884601915
+
+Fold 11
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.20911940032704
+	MAE train:  5.167930075689028
+	R2 train:  -0.0676305833584685
+
+Fold 12
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.201226768085974
+	MAE train:  5.275581624177237
+	R2 train:  -0.05071601633695777
+
+Fold 13
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.240730911399163
+	MAE train:  5.2944430740290285
+	R2 train:  -0.05755665924813691
+
+Fold 14
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.692884137980235
+	MAE train:  4.561500677230059
+	R2 train:  0.031169109601152933
+
+Fold 15
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.221052328490972
+	MAE train:  5.25101172859878
+	R2 train:  -0.04836553713083713
+
+Fold 16
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.252088532390884
+	MAE train:  5.308228614528592
+	R2 train:  -0.060473780320816184
+
+Fold 17
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.087355582436125
+	MAE train:  5.263420733505988
+	R2 train:  -0.018556805582671476
+
+Fold 18
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.253608478324255
+	MAE train:  5.291719148900478
+	R2 train:  -0.055719756989712765
+
+Fold 19
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.284566155898396
+	MAE train:  5.2819550318319965
+	R2 train:  -0.06365420772704056
+
+Fold 20
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.64810055228659
+	MAE train:  4.822683142509961
+	R2 train:  0.004414976938328152
+
+Fold 21
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.2081516966603
+	MAE train:  5.28264586648178
+	R2 train:  -0.04674390119590721
+
+Fold 22
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.191296738462015
+	MAE train:  5.219971102954037
+	R2 train:  -0.057198468526008295
+
+Fold 23
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.132130233780478
+	MAE train:  5.152256436890522
+	R2 train:  -0.03620572333886796
+
+Fold 24
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.144340232222069
+	MAE train:  5.092673985189454
+	R2 train:  -0.04957490196707015
+
+Fold 25
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.165069534581228
+	MAE train:  5.198836717331362
+	R2 train:  -0.05043935054860893
+
+Fold 26
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.254208207968448
+	MAE train:  5.31081764319983
+	R2 train:  -0.05852356297191208
+
+Fold 27
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.183073141108054
+	MAE train:  5.267718797570659
+	R2 train:  -0.03870154291401895
+
+Fold 28
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.072736425111982
+	MAE train:  5.060810636260813
+	R2 train:  -0.05287581131820063
+
+Fold 29
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.212398886703943
+	MAE train:  5.215851559655135
+	R2 train:  -0.057692641572612224
+
+Fold 30
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.134218919617838
+	MAE train:  5.134162746853982
+	R2 train:  -0.0708280372722132
+
+Fold 31
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.877722420734586
+	MAE train:  4.932851964550924
+	R2 train:  -0.03161834774479533
+
+Fold 32
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.159391274227577
+	MAE train:  5.194459497807538
+	R2 train:  -0.044082776325958806
+
+Fold 33
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.198954974075745
+	MAE train:  5.168899869381649
+	R2 train:  -0.05013398640142874
+
+Fold 34
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.167861520121026
+	MAE train:  5.2525194288826
+	R2 train:  -0.038358761877473
+
+Fold 35
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.257712418543841
+	MAE train:  5.259992292074217
+	R2 train:  -0.05773632468344658
+
+Fold 36
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.016454084455885
+	MAE train:  5.138650075351078
+	R2 train:  -0.023103380470990365
+
+Fold 37
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.21915306298381
+	MAE train:  5.260308807514196
+	R2 train:  -0.046923765045831844
+
+Fold 38
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.25890324294037
+	MAE train:  5.238635949403472
+	R2 train:  -0.061635558139573554
+
+Fold 39
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.037825423955708
+	MAE train:  5.034155293274394
+	R2 train:  -0.037328618132473235
+
+Fold 40
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.175141744037923
+	MAE train:  5.265124609397235
+	R2 train:  -0.03834164727793321
+
+Fold 41
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  8.21757953723453
+	MAE train:  5.230044526871617
+	R2 train:  -0.05902751688879282
+
+Fold 42
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.689691528350875
+	MAE train:  4.823000812236337
+	R2 train:  0.0430133983513038
+
+Fold 43
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.654175437293818
+	MAE train:  5.0122438970085295
+	R2 train:  0.002832762772344455
+Regression Evaluation
+	RMSE test 9.597824998531022
+	MAE test 6.5516212655528046
+	R2 test -0.46150430278172294
+
+Fold 1
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.876255249839046
+	MAE train:  2.860714285714286
+	R2 train:  0.7671265393266324
+
+Fold 2
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5856844999711464
+	MAE train:  2.5471428571428567
+	R2 train:  0.7974205652220516
+
+Fold 3
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.625659874258688
+	MAE train:  2.6309523809523805
+	R2 train:  0.7876219041077072
+
+Fold 4
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.6443054077233854
+	MAE train:  2.763333333333333
+	R2 train:  0.7917193410442651
+
+Fold 5
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.529606412699783
+	MAE train:  2.779285714285715
+	R2 train:  0.8055227281174503
+
+Fold 6
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.736766491169044
+	MAE train:  2.718571428571429
+	R2 train:  0.7836021998682188
+
+Fold 7
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.8413774811102535
+	MAE train:  2.7952380952380955
+	R2 train:  0.7687875004441286
+
+Fold 8
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.773234055567616
+	MAE train:  2.81
+	R2 train:  0.7744434972383134
+
+Fold 9
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.527123136360229
+	MAE train:  2.5964285714285715
+	R2 train:  0.8029079509632224
+
+Fold 10
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.658244765171511
+	MAE train:  2.6421428571428573
+	R2 train:  0.7920805055487052
+
+Fold 11
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7082661845177856
+	MAE train:  2.697619047619048
+	R2 train:  0.782143931025192
+
+Fold 12
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.835053547772927
+	MAE train:  2.833095238095238
+	R2 train:  0.7702420350690755
+
+Fold 13
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.9296525352273886
+	MAE train:  2.808333333333333
+	R2 train:  0.7595191599057146
+
+Fold 14
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0103879674031573
+	MAE train:  2.2335714285714285
+	R2 train:  0.803995382540461
+
+Fold 15
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  4.022792207268124
+	MAE train:  2.8761904761904766
+	R2 train:  0.7489772337562983
+
+Fold 16
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7178126569773458
+	MAE train:  2.630714285714286
+	R2 train:  0.7847480070272704
+
+Fold 17
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7060375451031637
+	MAE train:  2.7695238095238093
+	R2 train:  0.7861093464461963
+
+Fold 18
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7737511336927905
+	MAE train:  2.7530952380952383
+	R2 train:  0.7792974074236767
+
+Fold 19
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4064011871209545
+	MAE train:  2.5930952380952386
+	R2 train:  0.8201739881396881
+
+Fold 20
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.574872958115668
+	MAE train:  2.5245238095238096
+	R2 train:  0.7824834021613276
+
+Fold 21
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.844603205731875
+	MAE train:  2.912619047619048
+	R2 train:  0.7703572503082614
+
+Fold 22
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5496793953149917
+	MAE train:  2.6319047619047615
+	R2 train:  0.8014684804744722
+
+Fold 23
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.779729456178678
+	MAE train:  2.7964285714285717
+	R2 train:  0.7761491401669923
+
+Fold 24
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.80506147875995
+	MAE train:  2.7902380952380943
+	R2 train:  0.7709000592034445
+
+Fold 25
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.725451714381825
+	MAE train:  2.7680952380952384
+	R2 train:  0.7813199899960699
+
+Fold 26
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.765495603882328
+	MAE train:  2.934285714285714
+	R2 train:  0.7797104069050556
+
+Fold 27
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.910512084357337
+	MAE train:  2.9257142857142857
+	R2 train:  0.7627942701875643
+
+Fold 28
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.718882960808323
+	MAE train:  2.7371428571428575
+	R2 train:  0.7765601538672895
+
+Fold 29
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.80011246700736
+	MAE train:  2.7345238095238096
+	R2 train:  0.7735291489229292
+
+Fold 30
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5897854425869977
+	MAE train:  2.6535714285714294
+	R2 train:  0.7914428878123967
+
+Fold 31
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4245208215373517
+	MAE train:  2.5538095238095244
+	R2 train:  0.805052651814995
+
+Fold 32
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.716054295056723
+	MAE train:  2.7669047619047618
+	R2 train:  0.783437371644989
+
+Fold 33
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.8905471521184705
+	MAE train:  2.7142857142857144
+	R2 train:  0.7635446865037194
+
+Fold 34
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7982232688455793
+	MAE train:  2.8185714285714285
+	R2 train:  0.7754610538575564
+
+Fold 35
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.66007936421889
+	MAE train:  2.7723809523809524
+	R2 train:  0.7922031709183001
+
+Fold 36
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  4.049809225371581
+	MAE train:  2.8340476190476194
+	R2 train:  0.7388896833061073
+
+Fold 37
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7133815291392267
+	MAE train:  2.655
+	R2 train:  0.7863021919613442
+
+Fold 38
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.669687283939159
+	MAE train:  2.7076190476190476
+	R2 train:  0.7904011893837792
+
+Fold 39
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7065533984064087
+	MAE train:  2.6871428571428573
+	R2 train:  0.7794130869703727
+
+Fold 40
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.8268767571331206
+	MAE train:  2.676190476190476
+	R2 train:  0.7724700123304562
+
+Fold 41
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.663542716837793
+	MAE train:  2.7750000000000004
+	R2 train:  0.7895146220250531
+
+Fold 42
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5162977689609844
+	MAE train:  2.560714285714286
+	R2 train:  0.7998943686006826
+
+Fold 43
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.7937461069251226
+	MAE train:  2.757142857142857
+	R2 train:  0.755032933230413
+Regression Evaluation
+	RMSE test 9.816124134466504
+	MAE test 7.334883720930231
+	R2 test -0.5287431638379292
+
+Fold 1
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.631008214539694
+	MAE train:  4.776775559632824
+	R2 train:  0.3185179924049282
+
+Fold 2
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.138400813900738
+	MAE train:  5.10467359288855
+	R2 train:  0.1971155137612871
+
+Fold 3
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.8712206866741194
+	MAE train:  4.920553484365764
+	R2 train:  0.23721279982724885
+
+Fold 4
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.052546318129397
+	MAE train:  5.135144929052417
+	R2 train:  0.21996999955235141
+
+Fold 5
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.226430375335547
+	MAE train:  5.175316153642074
+	R2 train:  0.1848004345950438
+
+Fold 6
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.772745507254301
+	MAE train:  4.972017835609511
+	R2 train:  0.28912959253729176
+
+Fold 7
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.994864908722715
+	MAE train:  5.033506174656014
+	R2 train:  0.23335201367011305
+
+Fold 8
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.304421396324439
+	MAE train:  5.311374108952454
+	R2 train:  0.15472212588364898
+
+Fold 9
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.012966447269361
+	MAE train:  4.607465704671041
+	R2 train:  0.4271968176844828
+
+Fold 10
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.767904693431047
+	MAE train:  4.964976913968229
+	R2 train:  0.2883635910776674
+
+Fold 11
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.323097452370199
+	MAE train:  4.572214661413963
+	R2 train:  0.36658606766546553
+
+Fold 12
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.8077844131064404
+	MAE train:  4.920124067844173
+	R2 train:  0.27599877720996346
+
+Fold 13
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.922190161145541
+	MAE train:  5.026626264042362
+	R2 train:  0.25379315344226705
+
+Fold 14
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  5.7490125080329895
+	MAE train:  4.5390220583292535
+	R2 train:  0.28516160546708125
+
+Fold 15
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.633366253465858
+	MAE train:  4.871636045700059
+	R2 train:  0.3174635255403919
+
+Fold 16
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.380736665832247
+	MAE train:  5.34857488485389
+	R2 train:  0.15165676851186116
+
+Fold 17
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.889363729940321
+	MAE train:  5.022290431545274
+	R2 train:  0.26085370112535244
+
+Fold 18
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.322454429513068
+	MAE train:  5.323140326177516
+	R2 train:  0.1690511770636559
+
+Fold 19
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.089384756031502
+	MAE train:  5.128872035160281
+	R2 train:  0.2211066140970135
+
+Fold 20
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.374903194851835
+	MAE train:  4.485995248965562
+	R2 train:  0.30829906144400343
+
+Fold 21
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.151105988549775
+	MAE train:  5.214719804434844
+	R2 train:  0.20549594028439833
+
+Fold 22
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.928868399433035
+	MAE train:  4.973965518609178
+	R2 train:  0.2435576537987133
+
+Fold 23
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.262758437150619
+	MAE train:  4.478495553724547
+	R2 train:  0.385433818803814
+
+Fold 24
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.958305423589588
+	MAE train:  4.948398672585248
+	R2 train:  0.23385919137894806
+
+Fold 25
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.70369951142212
+	MAE train:  4.863409151916826
+	R2 train:  0.291923329576135
+
+Fold 26
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.13859040088416
+	MAE train:  5.216821334268551
+	R2 train:  0.20827452689753012
+
+Fold 27
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.233545223130092
+	MAE train:  4.535830663693435
+	R2 train:  0.397262600662171
+
+Fold 28
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.550333533173843
+	MAE train:  4.602662399375685
+	R2 train:  0.3067938122065347
+
+Fold 29
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.168589108019759
+	MAE train:  5.224278197892927
+	R2 train:  0.19408954822122093
+
+Fold 30
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.098145737851159
+	MAE train:  5.180378418615032
+	R2 train:  0.18458659929331034
+
+Fold 31
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.482216826907579
+	MAE train:  4.478510645404215
+	R2 train:  0.30150256206226034
+
+Fold 32
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.710932720624673
+	MAE train:  4.839867535545985
+	R2 train:  0.2937065449449724
+
+Fold 33
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.459137207123051
+	MAE train:  4.551401714413844
+	R2 train:  0.3482564656020316
+
+Fold 34
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.030068553701846
+	MAE train:  5.108724218634843
+	R2 train:  0.23078132397265916
+
+Fold 35
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.039021279765733
+	MAE train:  5.093246370954022
+	R2 train:  0.2314317012880749
+
+Fold 36
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.6098840430007
+	MAE train:  4.690682899447919
+	R2 train:  0.3044272136784094
+
+Fold 37
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.943484160540078
+	MAE train:  5.046720426372151
+	R2 train:  0.25283620368590787
+
+Fold 38
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.2149878440746384
+	MAE train:  5.329931740249844
+	R2 train:  0.18978196268603598
+
+Fold 39
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.496121623105476
+	MAE train:  4.706657810284003
+	R2 train:  0.32244038051424107
+
+Fold 40
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.254995304725757
+	MAE train:  5.303863019706288
+	R2 train:  0.18224358004677066
+
+Fold 41
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.323069836702267
+	MAE train:  5.39503389529686
+	R2 train:  0.1589810845049603
+
+Fold 42
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.90859875282891
+	MAE train:  4.895355984843317
+	R2 train:  0.22755429935532234
+
+Fold 43
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  7.202896928244357
+	MAE train:  5.291939115221651
+	R2 train:  0.11694942670473996
+Regression Evaluation
+	RMSE test 11.02136510027425
+	MAE test 7.72619742545326
+	R2 test -0.9271930596470066
+
+Training models with  pupil features
+Standard Deviation of labels 7.939127521871982
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+ 
+Saccades Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+
+-------------------------------
+
+Fold 1
+
+Training
+	RMSE train:  7.289116141747061
+	MAE train:  5.65792651603439
+	R2 train:  0.17653526989548018
+
+Fold 2
+
+Training
+	RMSE train:  7.267116454718417
+	MAE train:  5.585701081668084
+	R2 train:  0.16790014395656594
+
+Fold 3
+
+Training
+	RMSE train:  7.101609213840016
+	MAE train:  5.356657180442242
+	R2 train:  0.18520352206222634
+
+Fold 4
+
+Training
+	RMSE train:  7.275716426960025
+	MAE train:  5.644128022747599
+	R2 train:  0.16982253569006822
+
+Fold 5
+
+Training
+	RMSE train:  7.2226085959842
+	MAE train:  5.489056698418435
+	R2 train:  0.1856624615896808
+
+Fold 6
+
+Training
+	RMSE train:  7.308926250584133
+	MAE train:  5.690207477788518
+	R2 train:  0.17211868412082698
+
+Fold 7
+
+Training
+	RMSE train:  7.189104663572385
+	MAE train:  5.432083257972094
+	R2 train:  0.19018288840166953
+
+Fold 8
+
+Training
+	RMSE train:  7.130481931394555
+	MAE train:  5.531469863530454
+	R2 train:  0.1944998444435081
+
+Fold 9
+
+Training
+	RMSE train:  7.319239983888637
+	MAE train:  5.682807328326414
+	R2 train:  0.15128899157344944
+
+Fold 10
+
+Training
+	RMSE train:  7.271163883487028
+	MAE train:  5.63111204698358
+	R2 train:  0.17859459287468604
+
+Fold 11
+
+Training
+	RMSE train:  7.288397632412447
+	MAE train:  5.657959587477198
+	R2 train:  0.15842664291215558
+
+Fold 12
+
+Training
+	RMSE train:  7.256934603432215
+	MAE train:  5.6226946811078715
+	R2 train:  0.1773139557642609
+
+Fold 13
+
+Training
+	RMSE train:  7.279846137182734
+	MAE train:  5.639808456605742
+	R2 train:  0.17469100444254226
+
+Fold 14
+
+Training
+	RMSE train:  5.865142499722951
+	MAE train:  4.677631826425913
+	R2 train:  0.25599046713845686
+
+Fold 15
+
+Training
+	RMSE train:  7.262489595002445
+	MAE train:  5.6280503551161205
+	R2 train:  0.18185749309887267
+
+Fold 16
+
+Training
+	RMSE train:  7.278324315687159
+	MAE train:  5.6355812671141035
+	R2 train:  0.17503602318835298
+
+Fold 17
+
+Training
+	RMSE train:  7.2650370845517775
+	MAE train:  5.634054903729272
+	R2 train:  0.178045364618172
+
+Fold 18
+
+Training
+	RMSE train:  7.302982552261767
+	MAE train:  5.681407030537338
+	R2 train:  0.17346462081405134
+
+Fold 19
+
+Training
+	RMSE train:  7.316837898381773
+	MAE train:  5.712400698181801
+	R2 train:  0.17032541102368193
+
+Fold 20
+
+Training
+	RMSE train:  6.8290586092763865
+	MAE train:  5.044448359909309
+	R2 train:  0.2062333347503288
+
+Fold 21
+
+Training
+	RMSE train:  7.31401512441736
+	MAE train:  5.700012513527104
+	R2 train:  0.1688844670448898
+
+Fold 22
+
+Training
+	RMSE train:  7.149817856029463
+	MAE train:  5.5442858614370225
+	R2 train:  0.19454521918934564
+
+Fold 23
+
+Training
+	RMSE train:  7.108770983939341
+	MAE train:  5.310338631142998
+	R2 train:  0.20818015342600182
+
+Fold 24
+
+Training
+	RMSE train:  7.097158645534395
+	MAE train:  5.327666931979271
+	R2 train:  0.2029773796057167
+
+Fold 25
+
+Training
+	RMSE train:  7.153775970855418
+	MAE train:  5.54262294270174
+	R2 train:  0.1936531782927554
+
+Fold 26
+
+Training
+	RMSE train:  7.303301606953049
+	MAE train:  5.677585750364678
+	R2 train:  0.17131750806072776
+
+Fold 27
+
+Training
+	RMSE train:  7.293556942181697
+	MAE train:  5.659803471653625
+	R2 train:  0.17484285100688723
+
+Fold 28
+
+Training
+	RMSE train:  7.21032406380676
+	MAE train:  5.462276341003791
+	R2 train:  0.1600659819808995
+
+Fold 29
+
+Training
+	RMSE train:  7.32285519895043
+	MAE train:  5.700614265560551
+	R2 train:  0.15903038398397074
+
+Fold 30
+
+Training
+	RMSE train:  7.195395416199811
+	MAE train:  5.617348359632252
+	R2 train:  0.1620900436272179
+
+Fold 31
+
+Training
+	RMSE train:  7.067088464546912
+	MAE train:  5.28050853354582
+	R2 train:  0.16976934448008518
+
+Fold 32
+
+Training
+	RMSE train:  7.251697467057519
+	MAE train:  5.603208678117565
+	R2 train:  0.1752947351536973
+
+Fold 33
+
+Training
+	RMSE train:  7.210495833370578
+	MAE train:  5.5737193847660835
+	R2 train:  0.18780937577375068
+
+Fold 34
+
+Training
+	RMSE train:  7.305776577638984
+	MAE train:  5.622257667723223
+	R2 train:  0.16926315421582316
+
+Fold 35
+
+Training
+	RMSE train:  7.317847259153991
+	MAE train:  5.715127935107532
+	R2 train:  0.16933752491928
+
+Fold 36
+
+Training
+	RMSE train:  7.227493589795126
+	MAE train:  5.485956938077402
+	R2 train:  0.16836964852578695
+
+Fold 37
+
+Training
+	RMSE train:  7.310507911994492
+	MAE train:  5.700078062514251
+	R2 train:  0.17176033610478125
+
+Fold 38
+
+Training
+	RMSE train:  7.333613632069543
+	MAE train:  5.649667016425701
+	R2 train:  0.1629204133947193
+
+Fold 39
+
+Training
+	RMSE train:  7.319410770503688
+	MAE train:  5.700559398082104
+	R2 train:  0.1398157977128971
+
+Fold 40
+
+Training
+	RMSE train:  7.266977433198797
+	MAE train:  5.628915997998319
+	R2 train:  0.1795401864559566
+
+Fold 41
+
+Training
+	RMSE train:  7.305289961187916
+	MAE train:  5.672856689384924
+	R2 train:  0.1630599911127557
+
+Fold 42
+
+Training
+	RMSE train:  7.045004006057886
+	MAE train:  5.298057611790891
+	R2 train:  0.19675041589016462
+
+Fold 43
+
+Training
+	RMSE train:  7.052445710566623
+	MAE train:  5.3151825094326925
+	R2 train:  0.1534537703313047
+Regression Evaluation
+	RMSE test 8.315522735014172
+	MAE test 6.466098720339408
+	R2 test -0.09706801875064741
+
+Fold 1
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.205298302429775
+	MAE train:  4.701893440860799
+	R2 train:  0.19536449288304436
+
+Fold 2
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.1767429507942095
+	MAE train:  4.427470097248929
+	R2 train:  0.18846736334408165
+
+Fold 3
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.248887005503968
+	MAE train:  4.476157060448879
+	R2 train:  0.15105752610754797
+
+Fold 4
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.188369920110025
+	MAE train:  4.649057120321399
+	R2 train:  0.1896357966312856
+
+Fold 5
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.256788479885768
+	MAE train:  4.421514525159585
+	R2 train:  0.17793677020787324
+
+Fold 6
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.254788886312642
+	MAE train:  4.719088091696105
+	R2 train:  0.18433753051896307
+
+Fold 7
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.065570917172924
+	MAE train:  4.461835763237968
+	R2 train:  0.21777470449282188
+
+Fold 8
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.130781645476375
+	MAE train:  4.578814253803368
+	R2 train:  0.19443212817534417
+
+Fold 9
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.263194029368246
+	MAE train:  4.603201507032463
+	R2 train:  0.16423697548561733
+
+Fold 10
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.207197155394946
+	MAE train:  4.718698482979182
+	R2 train:  0.1929833482825698
+
+Fold 11
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.168796846698521
+	MAE train:  4.624975900910161
+	R2 train:  0.1858200415252601
+
+Fold 12
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.188033689394122
+	MAE train:  4.6753565634555025
+	R2 train:  0.1928617680106126
+
+Fold 13
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.292619330713056
+	MAE train:  4.636004503596899
+	R2 train:  0.17179229486687286
+
+Fold 14
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.622627509173725
+	MAE train:  4.0164051497341875
+	R2 train:  0.31624582701567183
+
+Fold 15
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.191453379406888
+	MAE train:  4.624255901763219
+	R2 train:  0.197784129463913
+
+Fold 16
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.226705145896103
+	MAE train:  4.542754552155129
+	R2 train:  0.1866961106642162
+
+Fold 17
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.204734484935686
+	MAE train:  4.661364267965236
+	R2 train:  0.19163381359003906
+
+Fold 18
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.273633265559767
+	MAE train:  4.742148051517127
+	R2 train:  0.1800946460303371
+
+Fold 19
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.474483454373596
+	MAE train:  4.595166160193444
+	R2 train:  0.1341886164487679
+
+Fold 20
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.950150444994394
+	MAE train:  4.336493310372719
+	R2 train:  0.17783385863556167
+
+Fold 21
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.21973711592056
+	MAE train:  4.732883609684471
+	R2 train:  0.19017261320615064
+
+Fold 22
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.1772765995357135
+	MAE train:  4.663658035940422
+	R2 train:  0.18834667085879686
+
+Fold 23
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.3285091001649585
+	MAE train:  4.722412064071989
+	R2 train:  0.15847194445338542
+
+Fold 24
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.248916141817476
+	MAE train:  4.405719866913674
+	R2 train:  0.16852772562196028
+
+Fold 25
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.162057437814694
+	MAE train:  4.6061538576615355
+	R2 train:  0.19178518584202586
+
+Fold 26
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.268763775309276
+	MAE train:  4.693696144149645
+	R2 train:  0.17913677195101174
+
+Fold 27
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.257293673760669
+	MAE train:  4.538018271439282
+	R2 train:  0.1830277483652758
+
+Fold 28
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.024072144227544
+	MAE train:  4.4760311922300655
+	R2 train:  0.20289867788047167
+
+Fold 29
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.209492872905339
+	MAE train:  4.713827718362758
+	R2 train:  0.1848663052194578
+
+Fold 30
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.125766089588228
+	MAE train:  4.574522653920259
+	R2 train:  0.178228368662529
+
+Fold 31
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.011389052148552
+	MAE train:  4.401334517579254
+	R2 train:  0.1828047340533171
+
+Fold 32
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.214138913697692
+	MAE train:  4.7118208800286485
+	R2 train:  0.1838153673113806
+
+Fold 33
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.1969633679717875
+	MAE train:  4.6358520840479045
+	R2 train:  0.19085511022004364
+
+Fold 34
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.195890726085184
+	MAE train:  4.6220972047446685
+	R2 train:  0.19406536621318504
+
+Fold 35
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.260974204556761
+	MAE train:  4.666565120151558
+	R2 train:  0.18219888456611344
+
+Fold 36
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.331486198268759
+	MAE train:  4.453792419489846
+	R2 train:  0.1442656930874725
+
+Fold 37
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.271023805249459
+	MAE train:  4.686596690419343
+	R2 train:  0.18068283259957285
+
+Fold 38
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.22002678753366
+	MAE train:  4.7255607329289955
+	R2 train:  0.18864985584801652
+
+Fold 39
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.339146430443897
+	MAE train:  4.615279800817748
+	R2 train:  0.1351708364110008
+
+Fold 40
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.257540446663712
+	MAE train:  4.741079104023394
+	R2 train:  0.18166972130642123
+
+Fold 41
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.207079636363984
+	MAE train:  4.680609722485168
+	R2 train:  0.18541191396813483
+
+Fold 42
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.390111823713898
+	MAE train:  4.612622104925847
+	R2 train:  0.11612664794138439
+
+Fold 43
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  7.39186157091511
+	MAE train:  4.692070623462515
+	R2 train:  0.07000882631203886
+Regression Evaluation
+	RMSE test 8.051978123463543
+	MAE test 5.6660816228342386
+	R2 test -0.02863101967239201
+
+Fold 1
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1872424265678765
+	MAE train:  2.5761904761904764
+	R2 train:  0.8425562381387502
+
+Fold 2
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.23491922325
+	MAE train:  2.5535714285714284
+	R2 train:  0.8351161617063847
+
+Fold 3
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.327698332252518
+	MAE train:  2.4871428571428575
+	R2 train:  0.8210945789256766
+
+Fold 4
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.159413372311837
+	MAE train:  2.515
+	R2 train:  0.8434574817080218
+
+Fold 5
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2137976349009967
+	MAE train:  2.4738095238095243
+	R2 train:  0.8387672179892213
+
+Fold 6
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.577115424738872
+	MAE train:  2.612619047619048
+	R2 train:  0.8016981207994729
+
+Fold 7
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.514650290806564
+	MAE train:  2.7028571428571433
+	R2 train:  0.8064462568839936
+
+Fold 8
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0765480036962884
+	MAE train:  2.46952380952381
+	R2 train:  0.8500469675333423
+
+Fold 9
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.394294231991878
+	MAE train:  2.499047619047619
+	R2 train:  0.8174731186851678
+
+Fold 10
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.377859635077472
+	MAE train:  2.541190476190476
+	R2 train:  0.8227309617755857
+
+Fold 11
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3298605719416283
+	MAE train:  2.595238095238096
+	R2 train:  0.8243371359288698
+
+Fold 12
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.347180761121073
+	MAE train:  2.5557142857142856
+	R2 train:  0.8249806588735389
+
+Fold 13
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2343778381630064
+	MAE train:  2.467619047619048
+	R2 train:  0.8370877720198105
+
+Fold 14
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  2.60930705999377
+	MAE train:  1.9926190476190475
+	R2 train:  0.8527444261893085
+
+Fold 15
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2283421220717696
+	MAE train:  2.5616666666666665
+	R2 train:  0.838334624211887
+
+Fold 16
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3068752334377254
+	MAE train:  2.565238095238096
+	R2 train:  0.8297026864301289
+
+Fold 17
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4054095621105964
+	MAE train:  2.6414285714285715
+	R2 train:  0.8194028550493057
+
+Fold 18
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.298364313240298
+	MAE train:  2.645952380952381
+	R2 train:  0.831399768065012
+
+Fold 19
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3680533447873615
+	MAE train:  2.5664285714285717
+	R2 train:  0.8242000105424995
+
+Fold 20
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.311824414485308
+	MAE train:  2.4404761904761907
+	R2 train:  0.8133165650328058
+
+Fold 21
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.431492456088236
+	MAE train:  2.6669047619047617
+	R2 train:  0.8170570036991369
+
+Fold 22
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.215040546289536
+	MAE train:  2.5166666666666666
+	R2 train:  0.8371363678588016
+
+Fold 23
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5203466414815567
+	MAE train:  2.6497619047619048
+	R2 train:  0.8058183460650205
+
+Fold 24
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2331596664209807
+	MAE train:  2.5826190476190476
+	R2 train:  0.8345922228202368
+
+Fold 25
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.345752460031902
+	MAE train:  2.583571428571428
+	R2 train:  0.8236242720354425
+
+Fold 26
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2652772798471053
+	MAE train:  2.596428571428571
+	R2 train:  0.8343506165228114
+
+Fold 27
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.505509948638001
+	MAE train:  2.6314285714285712
+	R2 train:  0.8093835755928984
+
+Fold 28
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.379034096982661
+	MAE train:  2.4904761904761905
+	R2 train:  0.8155321225443055
+
+Fold 29
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2521146966243366
+	MAE train:  2.5773809523809526
+	R2 train:  0.8341363874787742
+
+Fold 30
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3407017369466097
+	MAE train:  2.5664285714285713
+	R2 train:  0.8193810029725862
+
+Fold 31
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.195318748538541
+	MAE train:  2.336666666666667
+	R2 train:  0.8302748953974896
+
+Fold 32
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5630223927767517
+	MAE train:  2.595714285714286
+	R2 train:  0.8009067593638036
+
+Fold 33
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4868036939294416
+	MAE train:  2.551428571428571
+	R2 train:  0.8100747502656749
+
+Fold 34
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5556467498225706
+	MAE train:  2.542380952380952
+	R2 train:  0.8032259088021458
+
+Fold 35
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.45230909613234
+	MAE train:  2.6761904761904756
+	R2 train:  0.8151253963647875
+
+Fold 36
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.406432640363424
+	MAE train:  2.5988095238095235
+	R2 train:  0.8152627340908476
+
+Fold 37
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.41310429849147
+	MAE train:  2.756190476190476
+	R2 train:  0.819465569075335
+
+Fold 38
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4493829675962133
+	MAE train:  2.6
+	R2 train:  0.8148117067833698
+
+Fold 39
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2216961666917308
+	MAE train:  2.463095238095238
+	R2 train:  0.8333488244663906
+
+Fold 40
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2239882133779583
+	MAE train:  2.5328571428571425
+	R2 train:  0.83851336621455
+
+Fold 41
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5693730275111077
+	MAE train:  2.748095238095238
+	R2 train:  0.8001964100603657
+
+Fold 42
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.0902107340685325
+	MAE train:  2.4130952380952375
+	R2 train:  0.8454517064846416
+
+Fold 43
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.231495673169668
+	MAE train:  2.3740476190476194
+	R2 train:  0.8222628000771903
+Regression Evaluation
+	RMSE test 8.737965943925927
+	MAE test 6.772790697674419
+	R2 test -0.21136533009558778
+
+Fold 1
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.641137170653591
+	MAE train:  4.835592133600085
+	R2 train:  0.31643445605287046
+
+Fold 2
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.606176617174981
+	MAE train:  4.7083358228379355
+	R2 train:  0.3123751420803359
+
+Fold 3
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.268228328694955
+	MAE train:  4.374290544285143
+	R2 train:  0.3652171014748036
+
+Fold 4
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.525622218744507
+	MAE train:  4.7603597494780825
+	R2 train:  0.33217408466420284
+
+Fold 5
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.516958129846062
+	MAE train:  4.647887104810654
+	R2 train:  0.3370112554621816
+
+Fold 6
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.2375740674200015
+	MAE train:  4.4639792904266615
+	R2 train:  0.397034653591785
+
+Fold 7
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.425460212258688
+	MAE train:  4.5832248820349655
+	R2 train:  0.35308709638515245
+
+Fold 8
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.120678705553157
+	MAE train:  4.380302212243135
+	R2 train:  0.4064913863352343
+
+Fold 9
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.165145703544924
+	MAE train:  4.228219619368934
+	R2 train:  0.39783632846526196
+
+Fold 10
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.587010049484038
+	MAE train:  4.774630096616836
+	R2 train:  0.3258968710983394
+
+Fold 11
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.583157534707927
+	MAE train:  4.692356203829562
+	R2 train:  0.31341176563255657
+
+Fold 12
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.535955727137541
+	MAE train:  4.712298293748449
+	R2 train:  0.3326619087923489
+
+Fold 13
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.510513092359654
+	MAE train:  4.6777031471148955
+	R2 train:  0.3399108242892187
+
+Fold 14
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  4.8473497954715
+	MAE train:  3.8083561160118657
+	R2 train:  0.4918053547087299
+
+Fold 15
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.678866046349123
+	MAE train:  4.812342691021665
+	R2 train:  0.30806806186023183
+
+Fold 16
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.873650334926852
+	MAE train:  4.956324378715587
+	R2 train:  0.2642215745416312
+
+Fold 17
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.3245184264724355
+	MAE train:  4.591807357176297
+	R2 train:  0.3770874189925538
+
+Fold 18
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.618073872843582
+	MAE train:  4.766119068248246
+	R2 train:  0.3212276498903073
+
+Fold 19
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.48619347183447
+	MAE train:  4.675036753202834
+	R2 train:  0.3480103233017693
+
+Fold 20
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.32697871313523
+	MAE train:  4.380768920076524
+	R2 train:  0.31865994211958115
+
+Fold 21
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.458663492837393
+	MAE train:  4.589883309701684
+	R2 train:  0.35191046876356047
+
+Fold 22
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.307677117389627
+	MAE train:  4.551746044437853
+	R2 train:  0.37311177025963227
+
+Fold 23
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.5575378171521175
+	MAE train:  4.756754019351408
+	R2 train:  0.32621871449597983
+
+Fold 24
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.505287462100868
+	MAE train:  4.5173113178431965
+	R2 train:  0.33037045750362615
+
+Fold 25
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.244069893356192
+	MAE train:  4.557188245911543
+	R2 train:  0.38569122528833877
+
+Fold 26
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.639632140897499
+	MAE train:  4.75139364006354
+	R2 train:  0.31508334330809773
+
+Fold 27
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.598853438399592
+	MAE train:  4.767352122315329
+	R2 train:  0.3245474023143713
+
+Fold 28
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  5.984677507462016
+	MAE train:  4.208299856653911
+	R2 train:  0.4213484670264268
+
+Fold 29
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  5.9625423397761095
+	MAE train:  4.22952325637276
+	R2 train:  0.4424518694269204
+
+Fold 30
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.7542120897875515
+	MAE train:  4.870801208341787
+	R2 train:  0.2616922822620994
+
+Fold 31
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.724446044094531
+	MAE train:  4.723548984394155
+	R2 train:  0.2483239097375356
+
+Fold 32
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.358127008524056
+	MAE train:  4.534249239495376
+	R2 train:  0.3660167116605766
+
+Fold 33
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.509427953249469
+	MAE train:  4.625784951344062
+	R2 train:  0.3380680249791499
+
+Fold 34
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.250321144068494
+	MAE train:  4.317370126270001
+	R2 train:  0.3919555003825985
+
+Fold 35
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.650122472135633
+	MAE train:  4.763847375577742
+	R2 train:  0.3140109270079626
+
+Fold 36
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.549708356646296
+	MAE train:  4.538151242263429
+	R2 train:  0.31703440637933056
+
+Fold 37
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.458100920716038
+	MAE train:  4.606327672164112
+	R2 train:  0.35364579772634774
+
+Fold 38
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.650832646672285
+	MAE train:  4.7747053885403155
+	R2 train:  0.3115336158582457
+
+Fold 39
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.640333755770949
+	MAE train:  4.852915608522549
+	R2 train:  0.29202318179140874
+
+Fold 40
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.795544489555917
+	MAE train:  4.940407997711213
+	R2 train:  0.282539144438809
+
+Fold 41
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.388448647391169
+	MAE train:  4.558216154981354
+	R2 train:  0.35995541401388176
+
+Fold 42
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.350846455650659
+	MAE train:  4.443364310918962
+	R2 train:  0.3472434379194288
+
+Fold 43
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  6.3176430376123545
+	MAE train:  4.454671081097149
+	R2 train:  0.3206691402603201
+Regression Evaluation
+	RMSE test 9.073263098371218
+	MAE test 6.784237023753941
+	R2 test -0.3061151079734148
+
+Training models with  ou features
+Standard Deviation of labels 7.939127521871982
+
+-------------------------------
+
+Fixations Counts per Subject: 
+{1: 3211, 2: 4162, 3: 2293, 4: 2151, 5: 2643, 6: 3356, 7: 2946, 8: 3276, 10: 1851, 12: 3539, 13: 2409, 14: 3686, 15: 1931, 16: 2047, 17: 2887, 18: 2559, 19: 3593, 21: 2738, 22: 3427, 23: 3287, 24: 2503, 26: 3608, 27: 2687, 28: 2558, 29: 3005, 30: 2798, 31: 2456, 32: 3888, 33: 2778, 41: 3367, 43: 4220, 44: 3639, 45: 1852, 46: 2587, 47: 2739, 48: 2621, 49: 3289, 50: 2823, 51: 3085, 52: 1864, 53: 2772, 54: 2460, 55: 3017}
+ 
+Saccades Counts per Subject: 
+{1: 5309, 2: 6410, 3: 3521, 4: 3566, 5: 4606, 6: 5110, 7: 4930, 8: 5527, 10: 2502, 12: 5631, 13: 4101, 14: 5388, 15: 3392, 16: 3429, 17: 5071, 18: 3507, 19: 5891, 21: 4693, 22: 5281, 23: 5110, 24: 3767, 26: 5624, 27: 4638, 28: 4197, 29: 5193, 30: 4689, 31: 3529, 32: 6411, 33: 4188, 41: 5915, 43: 7097, 44: 5276, 45: 3430, 46: 4663, 47: 4575, 48: 3925, 49: 5512, 50: 5203, 51: 4585, 52: 2784, 53: 4762, 54: 3755, 55: 5273}
+
+-------------------------------
+
+Fold 1
+
+Training
+	RMSE train:  6.971610503765093
+	MAE train:  4.832096012218052
+	R2 train:  0.24671122934745116
+
+Fold 2
+
+Training
+	RMSE train:  6.745469637506327
+	MAE train:  4.369418606429602
+	R2 train:  0.2830719197520739
+
+Fold 3
+
+Training
+	RMSE train:  6.909143223032744
+	MAE train:  4.737727366856325
+	R2 train:  0.22876986056021376
+
+Fold 4
+
+Training
+	RMSE train:  6.985238866035197
+	MAE train:  4.939278693025813
+	R2 train:  0.23478771174275503
+
+Fold 5
+
+Training
+	RMSE train:  6.9909947338915
+	MAE train:  4.851542574461411
+	R2 train:  0.23705322077288815
+
+Fold 6
+
+Training
+	RMSE train:  6.984248622507125
+	MAE train:  4.859581309602138
+	R2 train:  0.24403741146293811
+
+Fold 7
+
+Training
+	RMSE train:  6.9614616790099735
+	MAE train:  4.798821532026504
+	R2 train:  0.2406566217668843
+
+Fold 8
+
+Training
+	RMSE train:  6.961995074311583
+	MAE train:  4.909869380588025
+	R2 train:  0.2321165904926209
+
+Fold 9
+
+Training
+	RMSE train:  7.0069680882010035
+	MAE train:  4.895727873767397
+	R2 train:  0.22216381915744243
+
+Fold 10
+
+Training
+	RMSE train:  6.977254658380559
+	MAE train:  4.848406484816069
+	R2 train:  0.24365691694765157
+
+Fold 11
+
+Training
+	RMSE train:  6.94774106909561
+	MAE train:  4.926381244393762
+	R2 train:  0.2352577042608026
+
+Fold 12
+
+Training
+	RMSE train:  7.031584098671558
+	MAE train:  5.001415900900655
+	R2 train:  0.227614589193036
+
+Fold 13
+
+Training
+	RMSE train:  6.970570527675313
+	MAE train:  4.85524260286609
+	R2 train:  0.24332596875684764
+
+Fold 14
+
+Training
+	RMSE train:  4.062992692935094
+	MAE train:  2.871981023283818
+	R2 train:  0.6429628178678672
+
+Fold 15
+
+Training
+	RMSE train:  7.012621440147976
+	MAE train:  4.967130153779277
+	R2 train:  0.23718591911414877
+
+Fold 16
+
+Training
+	RMSE train:  6.973246377501738
+	MAE train:  4.8139763129404045
+	R2 train:  0.24274491597357073
+
+Fold 17
+
+Training
+	RMSE train:  6.973726508129528
+	MAE train:  4.905300181981806
+	R2 train:  0.24264063344687214
+
+Fold 18
+
+Training
+	RMSE train:  6.985269052185883
+	MAE train:  4.868282249811864
+	R2 train:  0.24381649635637848
+
+Fold 19
+
+Training
+	RMSE train:  7.0322426893724215
+	MAE train:  4.972807247361276
+	R2 train:  0.23361213006547765
+
+Fold 20
+
+Training
+	RMSE train:  6.437701543977926
+	MAE train:  4.24064089169187
+	R2 train:  0.2946042255624439
+
+Fold 21
+
+Training
+	RMSE train:  7.04030967658717
+	MAE train:  5.016153302407309
+	R2 train:  0.22992466052735938
+
+Fold 22
+
+Training
+	RMSE train:  7.000162484378654
+	MAE train:  4.9705705387913826
+	R2 train:  0.22791085104159747
+
+Fold 23
+
+Training
+	RMSE train:  7.0285415839018315
+	MAE train:  4.944496899965417
+	R2 train:  0.22595221221115536
+
+Fold 24
+
+Training
+	RMSE train:  6.7247936424921875
+	MAE train:  4.589563158518233
+	R2 train:  0.2844177737876006
+
+Fold 25
+
+Training
+	RMSE train:  6.899566481879641
+	MAE train:  4.8485584429528
+	R2 train:  0.24994205658280888
+
+Fold 26
+
+Training
+	RMSE train:  7.025432280103672
+	MAE train:  4.99075914297967
+	R2 train:  0.23317582749535648
+
+Fold 27
+
+Training
+	RMSE train:  7.026069140198026
+	MAE train:  4.984100373486543
+	R2 train:  0.23425750476292784
+
+Fold 28
+
+Training
+	RMSE train:  7.008298464573282
+	MAE train:  4.932374498860223
+	R2 train:  0.2064746956257275
+
+Fold 29
+
+Training
+	RMSE train:  7.021067333889569
+	MAE train:  4.985743226643404
+	R2 train:  0.22691777457199236
+
+Fold 30
+
+Training
+	RMSE train:  6.780193148544579
+	MAE train:  4.689091016589909
+	R2 train:  0.256001341809874
+
+Fold 31
+
+Training
+	RMSE train:  6.625800382731396
+	MAE train:  4.487927486343883
+	R2 train:  0.27021588661821605
+
+Fold 32
+
+Training
+	RMSE train:  6.976656229151635
+	MAE train:  4.847958057524508
+	R2 train:  0.23666696157984735
+
+Fold 33
+
+Training
+	RMSE train:  6.95781512809493
+	MAE train:  4.899186741393116
+	R2 train:  0.24373590547909008
+
+Fold 34
+
+Training
+	RMSE train:  7.04321612198035
+	MAE train:  5.0049187930170165
+	R2 train:  0.22790146243567966
+
+Fold 35
+
+Training
+	RMSE train:  6.985919850711831
+	MAE train:  4.877953689876911
+	R2 train:  0.24298391372530348
+
+Fold 36
+
+Training
+	RMSE train:  6.984685621736667
+	MAE train:  4.85065842715977
+	R2 train:  0.22330836521647757
+
+Fold 37
+
+Training
+	RMSE train:  6.984192275701497
+	MAE train:  4.866351724990204
+	R2 train:  0.24404960916880858
+
+Fold 38
+
+Training
+	RMSE train:  6.9659371707194175
+	MAE train:  4.833988046208056
+	R2 train:  0.24475161382483923
+
+Fold 39
+
+Training
+	RMSE train:  6.919511566496376
+	MAE train:  4.685098205030128
+	R2 train:  0.23124120035953888
+
+Fold 40
+
+Training
+	RMSE train:  6.979076736693523
+	MAE train:  4.84664933199185
+	R2 train:  0.24326183425662806
+
+Fold 41
+
+Training
+	RMSE train:  7.000042397211405
+	MAE train:  4.9661953903441445
+	R2 train:  0.23154090873388666
+
+Fold 42
+
+Training
+	RMSE train:  7.056423907423232
+	MAE train:  5.0340428654498925
+	R2 train:  0.19414418153645696
+
+Fold 43
+
+Training
+	RMSE train:  7.030928591878137
+	MAE train:  5.016119188327831
+	R2 train:  0.15861154083120566
+Regression Evaluation
+	RMSE test 9.204928785769116
+	MAE test 6.432899540047152
+	R2 test -0.3442972498802881
+
+Fold 1
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.096801828725328
+	MAE train:  2.463597091778198
+	R2 train:  0.42389795074196635
+
+Fold 2
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.792224443594045
+	MAE train:  2.1349493046463204
+	R2 train:  0.4713819705530373
+
+Fold 3
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.105169258514336
+	MAE train:  2.327322216517252
+	R2 train:  0.3978134934753732
+
+Fold 4
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.182903826564746
+	MAE train:  2.492342054384961
+	R2 train:  0.4004790078221173
+
+Fold 5
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.042185260461243
+	MAE train:  2.4414396150984845
+	R2 train:  0.4300925053659639
+
+Fold 6
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.079125641022791
+	MAE train:  2.3880970258968226
+	R2 train:  0.42727893047505294
+
+Fold 7
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.1225772446643285
+	MAE train:  2.3992432000883603
+	R2 train:  0.41263795048695284
+
+Fold 8
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.990506228170449
+	MAE train:  2.3805910340798055
+	R2 train:  0.4314680063744477
+
+Fold 9
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.077553956851893
+	MAE train:  2.4420627354211817
+	R2 train:  0.4148253451734797
+
+Fold 10
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.008270842838842
+	MAE train:  2.3658006968246004
+	R2 train:  0.43914745577875114
+
+Fold 11
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.267035549094792
+	MAE train:  2.4360654614107573
+	R2 train:  0.37776823577294105
+
+Fold 12
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.12018221007885
+	MAE train:  2.452857893244928
+	R2 train:  0.41486454284472385
+
+Fold 13
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.152484648774419
+	MAE train:  2.4795064863156737
+	R2 train:  0.4105143254667376
+
+Fold 14
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  3.5458192881640227
+	MAE train:  1.7139340453494372
+	R2 train:  0.7280716046530964
+
+Fold 15
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.114112010823712
+	MAE train:  2.49833903137958
+	R2 train:  0.4201379423228302
+
+Fold 16
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.1669004706941575
+	MAE train:  2.4547614275593377
+	R2 train:  0.4077486538111469
+
+Fold 17
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.174893300172133
+	MAE train:  2.5042262373281194
+	R2 train:  0.4062124423150011
+
+Fold 18
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.106490402380474
+	MAE train:  2.4486047301000013
+	R2 train:  0.4221111973589319
+
+Fold 19
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.096350752398888
+	MAE train:  2.46224895401998
+	R2 train:  0.42402873917480166
+
+Fold 20
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.61132345189569
+	MAE train:  2.1191236223957812
+	R2 train:  0.4640777561222925
+
+Fold 21
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.172788893077013
+	MAE train:  2.3798345161192267
+	R2 train:  0.4080124953723352
+
+Fold 22
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.004656563757309
+	MAE train:  2.3271495596036513
+	R2 train:  0.4318963843701056
+
+Fold 23
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.12709772689711
+	MAE train:  2.5003856604919235
+	R2 train:  0.4117702962966089
+
+Fold 24
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.137980166693901
+	MAE train:  2.4928291487591268
+	R2 train:  0.4038540713208858
+
+Fold 25
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.141115436173373
+	MAE train:  2.5012747291184656
+	R2 train:  0.40578210114761404
+
+Fold 26
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.140981332906472
+	MAE train:  2.4670891154121253
+	R2 train:  0.41409764264866533
+
+Fold 27
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.116568706338305
+	MAE train:  2.4825888271995233
+	R2 train:  0.41967186296087955
+
+Fold 28
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.096037990599636
+	MAE train:  2.4514472162918906
+	R2 train:  0.39961348098622285
+
+Fold 29
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.112366464312218
+	MAE train:  2.480223554157326
+	R2 train:  0.4140801915638924
+
+Fold 30
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.9659568651836565
+	MAE train:  2.261137776399425
+	R2 train:  0.42396584018131633
+
+Fold 31
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  5.8651563880125375
+	MAE train:  2.1904465020218806
+	R2 train:  0.4281568766245496
+
+Fold 32
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.153532233490493
+	MAE train:  2.438654795662782
+	R2 train:  0.40616147095650046
+
+Fold 33
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.088551808635305
+	MAE train:  2.3955545139304264
+	R2 train:  0.42089712225439657
+
+Fold 34
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.094982495874464
+	MAE train:  2.468269104454523
+	R2 train:  0.4218032778064479
+
+Fold 35
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.1453592904588525
+	MAE train:  2.4564045985304763
+	R2 train:  0.4141958161924868
+
+Fold 36
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.096726927823792
+	MAE train:  2.4294941973606403
+	R2 train:  0.4082362093659364
+
+Fold 37
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.162587791470351
+	MAE train:  2.4869763772587063
+	R2 train:  0.41144485535435915
+
+Fold 38
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.171495034479567
+	MAE train:  2.4918914616585957
+	R2 train:  0.4071955328006204
+
+Fold 39
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.019397527116135
+	MAE train:  2.360461943841639
+	R2 train:  0.4182381050944972
+
+Fold 40
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.126127938291777
+	MAE train:  2.479971053829415
+	R2 train:  0.41692849777358787
+
+Fold 41
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.174056601748666
+	MAE train:  2.5159297383488157
+	R2 train:  0.4021935103555634
+
+Fold 42
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.084951274516368
+	MAE train:  2.4442806671481896
+	R2 train:  0.4007580198231817
+
+Fold 43
+
+Training
+Regression using  SVR(C=1000, gamma=0.002)
+	RMSE train:  6.122483460088572
+	MAE train:  2.4616604759727303
+	R2 train:  0.3619915692742326
+Regression Evaluation
+	RMSE test 10.55665457828444
+	MAE test 6.294449310405809
+	R2 test -0.7681009887573609
+
+Fold 1
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.372401998293685
+	MAE train:  2.3252380952380953
+	R2 train:  0.8237318127504042
+
+Fold 2
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.196971409080193
+	MAE train:  2.240714285714286
+	R2 train:  0.8389618725213477
+
+Fold 3
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.436858338380451
+	MAE train:  2.3457142857142856
+	R2 train:  0.8091646325044649
+
+Fold 4
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5034938343914703
+	MAE train:  2.323571428571429
+	R2 train:  0.8075038148665108
+
+Fold 5
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2053366957830396
+	MAE train:  2.2745238095238096
+	R2 train:  0.8396150529641331
+
+Fold 6
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5302030158807205
+	MAE train:  2.263809523809524
+	R2 train:  0.8068653107840984
+
+Fold 7
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.366026695420836
+	MAE train:  2.2564285714285712
+	R2 train:  0.8224697157576835
+
+Fold 8
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.4243678596341307
+	MAE train:  2.3752380952380956
+	R2 train:  0.8142243944496834
+
+Fold 9
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.379062634180415
+	MAE train:  2.3330952380952383
+	R2 train:  0.8191075899232116
+
+Fold 10
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.6914034626154755
+	MAE train:  2.4202380952380955
+	R2 train:  0.7882942170160296
+
+Fold 11
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.243546706630758
+	MAE train:  2.236666666666667
+	R2 train:  0.8333258790246532
+
+Fold 12
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2785620396172233
+	MAE train:  2.246904761904762
+	R2 train:  0.8320830552603613
+
+Fold 13
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.53578980198336
+	MAE train:  2.2923809523809524
+	R2 train:  0.8053093676339462
+
+Fold 14
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  2.7277759997407967
+	MAE train:  1.9728571428571429
+	R2 train:  0.8390693477194704
+
+Fold 15
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.6522387133164798
+	MAE train:  2.439047619047619
+	R2 train:  0.7930925053420214
+
+Fold 16
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.368565471136539
+	MAE train:  2.359047619047619
+	R2 train:  0.8232895782754936
+
+Fold 17
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.349710008770482
+	MAE train:  2.317619047619048
+	R2 train:  0.8252623061100174
+
+Fold 18
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3659630334953388
+	MAE train:  2.342142857142857
+	R2 train:  0.8244181559411377
+
+Fold 19
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.833645535940705
+	MAE train:  2.4380952380952374
+	R2 train:  0.7722361309027015
+
+Fold 20
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2479374407533808
+	MAE train:  2.111190476190476
+	R2 train:  0.8204495542261675
+
+Fold 21
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.194735625100411
+	MAE train:  2.2797619047619047
+	R2 train:  0.841430542540074
+
+Fold 22
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.22692135456869
+	MAE train:  2.2250000000000005
+	R2 train:  0.8359304566079531
+
+Fold 23
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.649630770626634
+	MAE train:  2.5366666666666666
+	R2 train:  0.7912938745780779
+
+Fold 24
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3863588395910127
+	MAE train:  2.357857142857143
+	R2 train:  0.8185455705059204
+
+Fold 25
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.298586277266585
+	MAE train:  2.3204761904761906
+	R2 train:  0.8285620743863661
+
+Fold 26
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.3411026124120564
+	MAE train:  2.244761904761905
+	R2 train:  0.8265679654747226
+
+Fold 27
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.311848498375262
+	MAE train:  2.250714285714286
+	R2 train:  0.8298629751760889
+
+Fold 28
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2697575270521644
+	MAE train:  2.204761904761905
+	R2 train:  0.8272704272564914
+
+Fold 29
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5309128052240593
+	MAE train:  2.3554761904761903
+	R2 train:  0.8044790053431246
+
+Fold 30
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.164633432469669
+	MAE train:  2.208571428571428
+	R2 train:  0.837917978641418
+
+Fold 31
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.195881277966555
+	MAE train:  2.1761904761904765
+	R2 train:  0.8302151306117833
+
+Fold 32
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.2905647944793106
+	MAE train:  2.2016666666666667
+	R2 train:  0.8301911558396529
+
+Fold 33
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5233094561519183
+	MAE train:  2.3876190476190478
+	R2 train:  0.8060770138150903
+
+Fold 34
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5123818400732274
+	MAE train:  2.372142857142857
+	R2 train:  0.8079854468130161
+
+Fold 35
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5109770041698543
+	MAE train:  2.379285714285714
+	R2 train:  0.8087885562033398
+
+Fold 36
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.422046867286414
+	MAE train:  2.3095238095238093
+	R2 train:  0.8135652746816364
+
+Fold 37
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.6722210095332155
+	MAE train:  2.5050000000000003
+	R2 train:  0.7910133503184713
+
+Fold 38
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.74921674359808
+	MAE train:  2.4502380952380953
+	R2 train:  0.7812178954612832
+
+Fold 39
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.400680954217986
+	MAE train:  2.218333333333333
+	R2 train:  0.8143174896463842
+
+Fold 40
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.521269048835337
+	MAE train:  2.312619047619048
+	R2 train:  0.8073592725030825
+
+Fold 41
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.5119744141599734
+	MAE train:  2.2897619047619053
+	R2 train:  0.8065707719525964
+
+Fold 42
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.030996614348237
+	MAE train:  1.918809523809524
+	R2 train:  0.8513178190025322
+
+Fold 43
+
+Training
+Regression using  RandomForestRegressor()
+	RMSE train:  3.1950545863136375
+	MAE train:  2.182142857142857
+	R2 train:  0.8262488286375916
+Regression Evaluation
+	RMSE test 9.07988218343808
+	MAE test 6.046976744186046
+	R2 test -0.30802146522283813
+
+Fold 1
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.633945839773752
+	MAE train:  2.595980523633922
+	R2 train:  0.7953309550999385
+
+Fold 2
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.1512346558406596
+	MAE train:  0.826602303999061
+	R2 train:  0.9791176718114768
+
+Fold 3
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.7002719662552623
+	MAE train:  2.013204731179292
+	R2 train:  0.8821985550008103
+
+Fold 4
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.280093343661109
+	MAE train:  2.3180048916960825
+	R2 train:  0.8312701898695676
+
+Fold 5
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.00728361601354
+	MAE train:  2.204672849718599
+	R2 train:  0.8588226354283495
+
+Fold 6
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.464357072394333
+	MAE train:  1.8089924436717082
+	R2 train:  0.905882974773744
+
+Fold 7
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.8303481993307726
+	MAE train:  2.241053334266885
+	R2 train:  0.8744788033437687
+
+Fold 8
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.465759642542244
+	MAE train:  2.5876317784501532
+	R2 train:  0.8097061548935409
+
+Fold 9
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.334051086952894
+	MAE train:  1.576422613260996
+	R2 train:  0.9136924921949207
+
+Fold 10
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  1.9567071881561644
+	MAE train:  1.3714176632938755
+	R2 train:  0.9405158347049405
+
+Fold 11
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.7010073456380272
+	MAE train:  2.1637517274096094
+	R2 train:  0.8844208777976543
+
+Fold 12
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.525103953004355
+	MAE train:  1.8830202019353792
+	R2 train:  0.900393831445133
+
+Fold 13
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.1278190858694845
+	MAE train:  2.289818882679568
+	R2 train:  0.8476454500132291
+
+Fold 14
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.187260941867267
+	MAE train:  1.7632601845299716
+	R2 train:  0.8965280677455726
+
+Fold 15
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.680968985196923
+	MAE train:  1.9283372288701222
+	R2 train:  0.888508568777333
+
+Fold 16
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.153929983564644
+	MAE train:  1.5609497913533328
+	R2 train:  0.9277504175230614
+
+Fold 17
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.1296489493433577
+	MAE train:  1.4315672925011376
+	R2 train:  0.9293701606024131
+
+Fold 18
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.9008653391818635
+	MAE train:  2.1474210755131233
+	R2 train:  0.8695884491180174
+
+Fold 19
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.557473774490374
+	MAE train:  1.8365422415761943
+	R2 train:  0.8986361028147467
+
+Fold 20
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.0219867295062053
+	MAE train:  2.1929560657443674
+	R2 train:  0.8445623283346037
+
+Fold 21
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.1424442754352
+	MAE train:  2.4090733415037744
+	R2 train:  0.8465789816213134
+
+Fold 22
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.936809774793892
+	MAE train:  2.188369905721212
+	R2 train:  0.8641051992169673
+
+Fold 23
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.7137123785132156
+	MAE train:  1.9281415348717315
+	R2 train:  0.8846108516921843
+
+Fold 24
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.358061602119125
+	MAE train:  2.5123849599240446
+	R2 train:  0.8215654547499301
+
+Fold 25
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.169380935858967
+	MAE train:  2.281250453997182
+	R2 train:  0.8417294579007989
+
+Fold 26
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.785138647598046
+	MAE train:  2.013565907805077
+	R2 train:  0.8794843824809644
+
+Fold 27
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.440175107767452
+	MAE train:  2.6124152911949237
+	R2 train:  0.8164226869444576
+
+Fold 28
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.218207281469344
+	MAE train:  1.505180502491699
+	R2 train:  0.920504992344679
+
+Fold 29
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.3062999481211666
+	MAE train:  1.678202858154353
+	R2 train:  0.9165836869245355
+
+Fold 30
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.2956569994211917
+	MAE train:  2.3034568605582533
+	R2 train:  0.8242189592093381
+
+Fold 31
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.8114430569978484
+	MAE train:  2.103718389892978
+	R2 train:  0.868605770301596
+
+Fold 32
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.0356485495776195
+	MAE train:  2.091964708612999
+	R2 train:  0.8554818505027607
+
+Fold 33
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.6858389453220246
+	MAE train:  2.1202461008717584
+	R2 train:  0.8873094119542345
+
+Fold 34
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.04059032727806
+	MAE train:  1.3906500103684902
+	R2 train:  0.935189951374768
+
+Fold 35
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.9798018263848376
+	MAE train:  2.0054062268081636
+	R2 train:  0.8622686910696828
+
+Fold 36
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.5565872807221455
+	MAE train:  1.892651637241362
+	R2 train:  0.8959418384649214
+
+Fold 37
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.026681994628231
+	MAE train:  2.2956792692427292
+	R2 train:  0.8580306780266702
+
+Fold 38
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.8509683712348792
+	MAE train:  2.112859235763983
+	R2 train:  0.8734927257599452
+
+Fold 39
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.751771939506852
+	MAE train:  1.9371222537336117
+	R2 train:  0.878419452094397
+
+Fold 40
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.129093992445994
+	MAE train:  2.19381078344925
+	R2 train:  0.8478797927362808
+
+Fold 41
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.4179345677018036
+	MAE train:  2.514740290287917
+	R2 train:  0.8167909592301243
+
+Fold 42
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  3.3654383511397916
+	MAE train:  2.4944867688356176
+	R2 train:  0.8166962712306055
+
+Fold 43
+
+Training
+Regression using  MLPRegressor(hidden_layer_sizes=(100, 50, 25))
+	RMSE train:  2.7975309440577716
+	MAE train:  2.071645504584729
+	R2 train:  0.8667948626829141
+Regression Evaluation
+	RMSE test 11.920447277847513
+	MAE test 8.747030049757846
+	R2 test -1.2544444925347862
