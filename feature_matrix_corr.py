@@ -129,43 +129,13 @@ directory_pupil = './osf/pupil_data/'
 data_fix, data_sac = load_dataset(directory_ou, directory_gazetime, directory_pupil)
 map_ss_sias = {} # Mapping (subject, stimulus) to Social Anxiety of the subject
 
-for x in data_fix[:, :3]:
+X_fix = get_features( data_fix , typ='fix')
+ids_f = data_fix[:, 0] # Subjects' ids (fixations)
+yf = data_fix[:, 1] # Labels (fixations)
+stim_f = data_fix[:, 2]  # Stimulus' ids (fixations)
 
-    map_ss_sias[(int(x[0]), int(x[2]))] = x[1]
+X_sac = get_features( data_sac, typ='sac')
+ids_s = data_sac[:, 0] # Subjects' ids (saccades)
+ys = data_sac[:, 1] # Labels (saccades)
+stim_s = data_sac[:, 2] # Stimulus' ids (saccades)
 
-    map_ss_sias = {} # Mapping (subject, stimulus) to Social Anxiety of the subject
-    for x in data_fix[:, :3]:
-        map_ss_sias[(int(x[0]), int(x[2]))] = x[1]
-
-    X_fix = get_features( data_fix , typ='fix')
-    ids_f = data_fix[:, 0] # Subjects' ids (fixations)
-    yf = data_fix[:, 1] # Labels (fixations)
-    stim_f = data_fix[:, 2]  # Stimulus' ids (fixations)
-
-    X_sac = get_features( data_sac, typ='sac')
-    ids_s = data_sac[:, 0] # Subjects' ids (saccades)
-    ys = data_sac[:, 1] # Labels (saccades)
-    stim_s = data_sac[:, 2] # Stimulus' ids (saccades)
-
-
-    print('Standard Deviation of labels', np.std(list(yf) + list(ys)) )
-
-    n_sub_f = len(np.unique(ids_f))
-    n_sub_s = len(np.unique(ids_s))
-    assert n_sub_f == n_sub_s
-
-    unique_f, counts_f = np.unique(ids_f, return_counts=True)
-    cf = dict(zip(unique_f.astype(int), counts_f))
-
-    unique_s, counts_s = np.unique(ids_s, return_counts=True)
-    cs = dict(zip(unique_s.astype(int), counts_s))
-
-    print('\n-------------------------------')
-    print('\nFixations Counts per Subject: \n' + str(cf))
-    print(' ')
-    print('Saccades Counts per Subject: \n' + str(cs))
-    print('\n-------------------------------')
-
-    print('\n-----------corr matrix------')
-    print(np.shape(X_fix))
-    print(type(X_fix))
